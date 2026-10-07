@@ -1995,7 +1995,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
-        "speechRate": 170
+        "speechRate": 160
       },
       "presets": [
         {
@@ -4196,7 +4196,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "AU Female",
-        "speechRate": 170
+        "speechRate": 160
       },
       "presets": [
         {
@@ -6363,8 +6363,8 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "CONFIRM ATIS DEP {letter}",
-            "voice": "THIS WAS BARCELONA DEP INFORMATION {letter|word}"
+            "text": "CONFIRM ATIS {letter}",
+            "voice": "THIS WAS ALICANTE DEP INFORMATION {letter|word}"
           }
         }
       },
@@ -6376,13 +6376,13 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
-        "speechRate": 170
+        "speechRate": 160
       },
       "presets": [
         {
           "id": "fb5306f7-b2db-4fb4-8689-d367fabf0a4d",
           "name": "EAST",
-          "airportConditions": "RWY IN USE FOR ARR ^24R AND FOR DEP ^24L.",
+          "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^10.",
           "notams": "",
           "template": "LEAL ATIS ARR [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
           "externalGenerator": {
@@ -6398,7 +6398,7 @@
         {
           "id": "800d2252-7487-4f67-8701-7d3eafd7f446",
           "name": "WEST",
-          "airportConditions": "RWY IN USE FOR ARR ^24R AND FOR DEP ^24L.",
+          "airportConditions": "EXPECT RNP Y APCH.\r\nRWY IN USE ^28.",
           "notams": "",
           "template": "LEAL ATIS ARR [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
           "externalGenerator": {
@@ -6459,41 +6459,6 @@
           "voice": "RUNWAYS"
         },
         {
-          "variableName": "2W",
-          "text": "2W",
-          "voice": "TWO WHISKEY"
-        },
-        {
-          "variableName": "2L",
-          "text": "2L",
-          "voice": "TWO LIMA"
-        },
-        {
-          "variableName": "2N",
-          "text": "2N",
-          "voice": "TWO NOVEMBER"
-        },
-        {
-          "variableName": "2E",
-          "text": "2E",
-          "voice": "TWO ECHO"
-        },
-        {
-          "variableName": "UB",
-          "text": "UB",
-          "voice": "UNIFORM BRAVO"
-        },
-        {
-          "variableName": "U3L",
-          "text": "U3L",
-          "voice": "UNIFORM THREE LIMA"
-        },
-        {
-          "variableName": "ARR",
-          "text": "ARR",
-          "voice": "ARRIVAL"
-        },
-        {
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACH"
@@ -6514,9 +6479,9 @@
           "voice": "CONTACT"
         },
         {
-          "variableName": "LEBL",
-          "text": "LEBL",
-          "voice": "THIS IS BARCELONA"
+          "variableName": "LEAL",
+          "text": "LEAL",
+          "voice": "THIS IS ALICANTE"
         }
       ],
       "airportConditionDefinitions": [
@@ -6543,14 +6508,9 @@
       ],
       "notamDefinitions": [
         {
-          "text": "CTC APPROACH 131.125 BEFORE PASSING {2000} FT.",
+          "text": "MONITOR ADVISORY AFTER PASSING {2000} FT.",
           "ordinal": 1,
           "enabled": false
-        },
-        {
-          "text": "MONITOR ADVISORY AFTER PASSING {2000} FT.",
-          "ordinal": 2,
-          "enabled": true
         }
       ]
     }
