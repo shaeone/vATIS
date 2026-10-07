@@ -2,7 +2,7 @@
   "name": "LEBL D-ATIS",
   "id": "4ee5f428-3c57-45b8-b6d4-ba7f9e142919",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LEBL%20D-ATIS.json",
-  "updateSerial": 2026100706,
+  "updateSerial": 2026100707,
   "stations": [
     {
       "id": "9d292887-ada6-47ea-bae7-6a15b69b0faa",
@@ -19198,7 +19198,7 @@
           "name": "EAST",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^06L AND FOR DEP ^06R.",
           "notams": "",
-          "template": "LEAL ATIS ARR [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEPA ATIS ARR [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -19214,7 +19214,7 @@
           "name": "WEST",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^24L AND FOR DEP ^24R.",
           "notams": "",
-          "template": "LEAL ATIS ARR [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEPA ATIS ARR [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -19293,9 +19293,9 @@
           "voice": "CONTACT"
         },
         {
-          "variableName": "LEAL",
-          "text": "LEAL",
-          "voice": "THIS IS ALICANTE"
+          "variableName": "LEPA",
+          "text": "LEPA",
+          "voice": "THIS IS PALMA DE MALLORCA"
         },
         {
           "variableName": "RWYCC",
