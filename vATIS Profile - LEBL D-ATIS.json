@@ -1,6 +1,8 @@
 {
   "name": "LEBL D-ATIS",
   "id": "94a121ed-741b-4a2f-86fe-1877d51ea624",
+  "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LEBL%20D-ATIS.json",
+  "updateSerial": 2026100701,
   "stations": [
     {
       "id": "9d292887-ada6-47ea-bae7-6a15b69b0faa",
