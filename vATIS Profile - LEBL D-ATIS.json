@@ -2,7 +2,7 @@
   "name": "LEBL D-ATIS",
   "id": "4ee5f428-3c57-45b8-b6d4-ba7f9e142919",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LEBL%20D-ATIS.json",
-  "updateSerial": 2026100705,
+  "updateSerial": 2026100706,
   "stations": [
     {
       "id": "9d292887-ada6-47ea-bae7-6a15b69b0faa",
@@ -23561,8 +23561,8 @@
           "voice": "CONTACT"
         },
         {
-          "variableName": "LEVS",
-          "text": "LEVS",
+          "variableName": "LEVC",
+          "text": "LEVC",
           "voice": "THIS IS VALENCIA"
         },
         {
