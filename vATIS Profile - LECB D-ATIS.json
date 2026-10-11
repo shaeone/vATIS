@@ -2,7 +2,7 @@
   "name": "LECB D-ATIS",
   "id": "8bc139fd-1636-46eb-a284-a2c074f61606",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LECB%20D-ATIS.json",
-  "updateSerial": 2026101101,
+  "updateSerial": 2026101103,
   "stations": [
     {
       "id": "9d292887-ada6-47ea-bae7-6a15b69b0faa",
@@ -1995,7 +1995,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
-        "speechRate": 160
+        "speechRate": 150
       },
       "presets": [
         {
@@ -4181,7 +4181,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "AU Female",
-        "speechRate": 160
+        "speechRate": 150
       },
       "presets": [
         {
@@ -6346,7 +6346,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
-        "speechRate": 160
+        "speechRate": 150
       },
       "presets": [
         {
@@ -8454,7 +8454,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
-        "speechRate": 160
+        "speechRate": 150
       },
       "presets": [
         {
@@ -10562,7 +10562,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 160
+        "speechRate": 150
       },
       "presets": [
         {
@@ -12676,7 +12676,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Female",
-        "speechRate": 160
+        "speechRate": 150
       },
       "presets": [
         {
@@ -14790,7 +14790,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Female",
-        "speechRate": 160
+        "speechRate": 150
       },
       "presets": [
         {
@@ -16904,7 +16904,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
-        "speechRate": 160
+        "speechRate": 150
       },
       "presets": [
         {
@@ -19018,7 +19018,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "AU Female",
-        "speechRate": 160
+        "speechRate": 150
       },
       "presets": [
         {
@@ -21132,7 +21132,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Female",
-        "speechRate": 160
+        "speechRate": 150
       },
       "presets": [
         {
@@ -23246,7 +23246,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 160
+        "speechRate": 150
       },
       "presets": [
         {
