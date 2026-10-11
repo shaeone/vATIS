@@ -1,7 +1,7 @@
 {
   "name": "GCCC D-ATIS",
   "id": "fc439221-f4ba-4a9f-97be-5d0c9e72b71c",
-  "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20GCCCM%20D-ATIS.json",
+  "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20GCCC%20D-ATIS.json",
   "updateSerial": 2026101101,
   "stations": [
     {
