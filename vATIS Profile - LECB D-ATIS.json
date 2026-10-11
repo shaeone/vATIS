@@ -1,7 +1,7 @@
 {
   "name": "LECB D-ATIS",
-  "id": "4ee5f428-3c57-45b8-b6d4-ba7f9e142919",
-  "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LEBL%20D-ATIS.json",
+  "id": "8bc139fd-1636-46eb-a284-a2c074f61606",
+  "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LECB%20D-ATIS.json",
   "updateSerial": 2026100707,
   "stations": [
     {
@@ -30,7 +30,7 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir} DEG {wind_spd} KT",
-              "voice": "WIND {wind_dir} AT {wind_spd} KNOTS"
+              "voice": "WIND {wind_dir} DEGREES AT {wind_spd} KNOTS"
             }
           },
           "standardGust": {
@@ -2003,7 +2003,7 @@
           "name": "WRL",
           "airportConditions": "RWY IN USE FOR ARR ^24R AND FOR DEP ^24L.",
           "notams": "",
-          "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2019,7 +2019,7 @@
           "name": "WLL",
           "airportConditions": "RWY IN USE FOR ARR ^24L AND FOR DEP ^24L.",
           "notams": "",
-          "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2035,7 +2035,7 @@
           "name": "ENR",
           "airportConditions": "RWY IN USE FOR ARR ^02 AND FOR DEP ^06R.",
           "notams": "",
-          "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2051,7 +2051,7 @@
           "name": "ELR",
           "airportConditions": "RWY IN USE FOR ARR ^06L AND FOR DEP ^06R.",
           "notams": "",
-          "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2064,26 +2064,6 @@
         }
       ],
       "contractions": [
-        {
-          "variableName": "W",
-          "text": "W",
-          "voice": "WHISKEY"
-        },
-        {
-          "variableName": "E",
-          "text": "E",
-          "voice": "ECHO"
-        },
-        {
-          "variableName": "N",
-          "text": "N",
-          "voice": "NOVEMBER"
-        },
-        {
-          "variableName": "L",
-          "text": "L",
-          "voice": "LIMA"
-        },
         {
           "variableName": "R_NAV",
           "text": "R-NAV",
@@ -2192,9 +2172,9 @@
           "enabled": false
         },
         {
-          "text": "DATALINK DEP CLR AVBL",
+          "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 4,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -2206,7 +2186,7 @@
         {
           "text": "MONITOR ADVISORY AFTER PASSING {2000} FT.",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         }
       ]
     },
@@ -2236,7 +2216,7 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir} DEG {wind_spd} KT",
-              "voice": "WIND {wind_dir} AT {wind_spd} KNOTS"
+              "voice": "WIND {wind_dir} DEGREES AT {wind_spd} KNOTS"
             }
           },
           "standardGust": {
@@ -4209,7 +4189,7 @@
           "name": "WRL",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^24R AND FOR DEP ^24L.\r\nHIGH INTENSITY RUNWAY OPERATIONS IN FORCE.",
           "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2W APCH TRANSITIONS FOR RUNWAY 24R.",
-          "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4225,7 +4205,7 @@
           "name": "WLL",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^24L AND FOR DEP ^24L.\r\nHIGH INTENSITY RUNWAY OPERATIONS IN FORCE.",
           "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2L APCH TRANSITIONS FOR RUNWAY 24L.",
-          "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4241,7 +4221,7 @@
           "name": "ENR",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^02 AND FOR DEP ^06R.\r\nARR ACFT MUST USE EXIT UB, RWY 02 LAST EXIT AVAILABLE U3L.",
           "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2N APCH TRANSITIONS FOR RUNWAY 02.",
-          "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4257,7 +4237,7 @@
           "name": "ELR",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^06L AND FOR DEP ^06R.\r\nHIGH INTENSITY RUNWAY OPERATIONS IN FORCE.",
           "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2E APCH TRANSITIONS FOR RUNWAY 06L.",
-          "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4270,26 +4250,6 @@
         }
       ],
       "contractions": [
-        {
-          "variableName": "W",
-          "text": "W",
-          "voice": "WHISKEY"
-        },
-        {
-          "variableName": "E",
-          "text": "E",
-          "voice": "ECHO"
-        },
-        {
-          "variableName": "N",
-          "text": "N",
-          "voice": "NOVEMBER"
-        },
-        {
-          "variableName": "L",
-          "text": "L",
-          "voice": "LIMA"
-        },
         {
           "variableName": "R_NAV",
           "text": "R-NAV",
@@ -4388,7 +4348,7 @@
           "enabled": false
         },
         {
-          "text": "DATALINK DEP CLR AVBL",
+          "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 4,
           "enabled": false
         }
@@ -4421,7 +4381,7 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir} DEG {wind_spd} KT",
-              "voice": "WIND {wind_dir} AT {wind_spd} KNOTS"
+              "voice": "WIND {wind_dir} DEGREES AT {wind_spd} KNOTS"
             }
           },
           "standardGust": {
@@ -6394,7 +6354,7 @@
           "name": "EAST",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^10.",
           "notams": "",
-          "template": "LEAL ATIS [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEAL ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6410,7 +6370,7 @@
           "name": "WEST",
           "airportConditions": "EXPECT RNP Y APCH.\r\nRWY IN USE ^28.",
           "notams": "",
-          "template": "LEAL ATIS [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEAL ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6423,26 +6383,6 @@
         }
       ],
       "contractions": [
-        {
-          "variableName": "W",
-          "text": "W",
-          "voice": "WHISKEY"
-        },
-        {
-          "variableName": "E",
-          "text": "E",
-          "voice": "ECHO"
-        },
-        {
-          "variableName": "N",
-          "text": "N",
-          "voice": "NOVEMBER"
-        },
-        {
-          "variableName": "L",
-          "text": "L",
-          "voice": "LIMA"
-        },
         {
           "variableName": "R_NAV",
           "text": "R-NAV",
@@ -6516,18 +6456,12 @@
           "enabled": false
         },
         {
-          "text": "DATALINK DEP CLR AVBL",
+          "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 4,
-          "enabled": true
-        }
-      ],
-      "notamDefinitions": [
-        {
-          "text": "MONITOR ADVISORY AFTER PASSING {2000} FT.",
-          "ordinal": 1,
           "enabled": false
         }
-      ]
+      ],
+      "notamDefinitions": []
     },
     {
       "id": "0f976ef1-cd68-4838-8c1a-a61c159f2129",
@@ -6555,7 +6489,7 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir} DEG {wind_spd} KT",
-              "voice": "WIND {wind_dir} AT {wind_spd} KNOTS"
+              "voice": "WIND {wind_dir} DEGREES AT {wind_spd} KNOTS"
             }
           },
           "standardGust": {
@@ -8528,7 +8462,7 @@
           "name": "NORTH",
           "airportConditions": "EXPECT RNP Y APCH.\r\nRWY IN USE ^01.",
           "notams": "",
-          "template": "LEGE ATIS [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEGE ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8544,7 +8478,7 @@
           "name": "SOUTH",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^19.",
           "notams": "",
-          "template": "LEGE ATIS [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEGE ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8557,26 +8491,6 @@
         }
       ],
       "contractions": [
-        {
-          "variableName": "W",
-          "text": "W",
-          "voice": "WHISKEY"
-        },
-        {
-          "variableName": "E",
-          "text": "E",
-          "voice": "ECHO"
-        },
-        {
-          "variableName": "N",
-          "text": "N",
-          "voice": "NOVEMBER"
-        },
-        {
-          "variableName": "L",
-          "text": "L",
-          "voice": "LIMA"
-        },
         {
           "variableName": "R_NAV",
           "text": "R-NAV",
@@ -8650,18 +8564,12 @@
           "enabled": false
         },
         {
-          "text": "DATALINK DEP CLR AVBL",
+          "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 4,
-          "enabled": true
-        }
-      ],
-      "notamDefinitions": [
-        {
-          "text": "MONITOR ADVISORY AFTER PASSING {2000} FT.",
-          "ordinal": 1,
           "enabled": false
         }
-      ]
+      ],
+      "notamDefinitions": []
     },
     {
       "id": "6024988d-65c9-4c72-826b-6a1cfa24285f",
@@ -8689,7 +8597,7 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir} DEG {wind_spd} KT",
-              "voice": "WIND {wind_dir} AT {wind_spd} KNOTS"
+              "voice": "WIND {wind_dir} DEGREES AT {wind_spd} KNOTS"
             }
           },
           "standardGust": {
@@ -10662,7 +10570,7 @@
           "name": "EAST",
           "airportConditions": "EXPECT ILS APCH.\r\nRWY IN USE ^06.",
           "notams": "",
-          "template": "LEIB ATIS [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEIB ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -10678,7 +10586,7 @@
           "name": "WEST",
           "airportConditions": "EXPECT ILS APCH.\r\nRWY IN USE ^24.",
           "notams": "",
-          "template": "LEIB ATIS [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEIB ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -10691,26 +10599,6 @@
         }
       ],
       "contractions": [
-        {
-          "variableName": "W",
-          "text": "W",
-          "voice": "WHISKEY"
-        },
-        {
-          "variableName": "E",
-          "text": "E",
-          "voice": "ECHO"
-        },
-        {
-          "variableName": "N",
-          "text": "N",
-          "voice": "NOVEMBER"
-        },
-        {
-          "variableName": "L",
-          "text": "L",
-          "voice": "LIMA"
-        },
         {
           "variableName": "R_NAV",
           "text": "R-NAV",
@@ -10784,9 +10672,9 @@
           "enabled": false
         },
         {
-          "text": "DATALINK DEP CLR AVBL",
+          "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 4,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -10823,7 +10711,7 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir} DEG {wind_spd} KT",
-              "voice": "WIND {wind_dir} AT {wind_spd} KNOTS"
+              "voice": "WIND {wind_dir} DEGREES AT {wind_spd} KNOTS"
             }
           },
           "standardGust": {
@@ -12796,7 +12684,7 @@
           "name": "EAST",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^04.",
           "notams": "",
-          "template": "LELC ATIS [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LELC ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12812,7 +12700,7 @@
           "name": "WEST",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^22L.",
           "notams": "",
-          "template": "LELC ATIS [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LELC ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12825,26 +12713,6 @@
         }
       ],
       "contractions": [
-        {
-          "variableName": "W",
-          "text": "W",
-          "voice": "WHISKEY"
-        },
-        {
-          "variableName": "E",
-          "text": "E",
-          "voice": "ECHO"
-        },
-        {
-          "variableName": "N",
-          "text": "N",
-          "voice": "NOVEMBER"
-        },
-        {
-          "variableName": "L",
-          "text": "L",
-          "voice": "LIMA"
-        },
         {
           "variableName": "R_NAV",
           "text": "R-NAV",
@@ -12918,9 +12786,9 @@
           "enabled": false
         },
         {
-          "text": "DATALINK DEP CLR AVBL",
+          "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 4,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -12957,7 +12825,7 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir} DEG {wind_spd} KT",
-              "voice": "WIND {wind_dir} AT {wind_spd} KNOTS"
+              "voice": "WIND {wind_dir} DEGREES AT {wind_spd} KNOTS"
             }
           },
           "standardGust": {
@@ -14930,7 +14798,7 @@
           "name": "NORTH",
           "airportConditions": "EXPECT ILS Y APCH.\r\nRWY IN USE ^01.",
           "notams": "",
-          "template": "LEMH ATIS [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEMH ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14946,7 +14814,7 @@
           "name": "SOUTH",
           "airportConditions": "EXPECT ILS Y APCH.\r\nRWY IN USE ^01.",
           "notams": "",
-          "template": "LEMH ATIS [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEMH ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14959,26 +14827,6 @@
         }
       ],
       "contractions": [
-        {
-          "variableName": "W",
-          "text": "W",
-          "voice": "WHISKEY"
-        },
-        {
-          "variableName": "E",
-          "text": "E",
-          "voice": "ECHO"
-        },
-        {
-          "variableName": "N",
-          "text": "N",
-          "voice": "NOVEMBER"
-        },
-        {
-          "variableName": "L",
-          "text": "L",
-          "voice": "LIMA"
-        },
         {
           "variableName": "R_NAV",
           "text": "R-NAV",
@@ -15052,9 +14900,9 @@
           "enabled": false
         },
         {
-          "text": "DATALINK DEP CLR AVBL",
+          "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 4,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -15091,7 +14939,7 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir} DEG {wind_spd} KT",
-              "voice": "WIND {wind_dir} AT {wind_spd} KNOTS"
+              "voice": "WIND {wind_dir} DEGREES AT {wind_spd} KNOTS"
             }
           },
           "standardGust": {
@@ -17064,7 +16912,7 @@
           "name": "EAST",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^06L AND FOR DEP ^06R.",
           "notams": "",
-          "template": "LEPA ATIS DEP [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEPA ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -17080,7 +16928,7 @@
           "name": "WEST",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^24L AND FOR DEP ^24R.",
           "notams": "",
-          "template": "LEPA ATIS DEP [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEPA ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -17093,26 +16941,6 @@
         }
       ],
       "contractions": [
-        {
-          "variableName": "W",
-          "text": "W",
-          "voice": "WHISKEY"
-        },
-        {
-          "variableName": "E",
-          "text": "E",
-          "voice": "ECHO"
-        },
-        {
-          "variableName": "N",
-          "text": "N",
-          "voice": "NOVEMBER"
-        },
-        {
-          "variableName": "L",
-          "text": "L",
-          "voice": "LIMA"
-        },
         {
           "variableName": "R_NAV",
           "text": "R-NAV",
@@ -17186,9 +17014,9 @@
           "enabled": false
         },
         {
-          "text": "DATALINK DEP CLR AVBL",
+          "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 4,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -17225,7 +17053,7 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir} DEG {wind_spd} KT",
-              "voice": "WIND {wind_dir} AT {wind_spd} KNOTS"
+              "voice": "WIND {wind_dir} DEGREES AT {wind_spd} KNOTS"
             }
           },
           "standardGust": {
@@ -19198,7 +19026,7 @@
           "name": "EAST",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^06L AND FOR DEP ^06R.",
           "notams": "",
-          "template": "LEPA ATIS ARR [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEPA ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -19214,7 +19042,7 @@
           "name": "WEST",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^24L AND FOR DEP ^24R.",
           "notams": "",
-          "template": "LEPA ATIS ARR [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEPA ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -19227,26 +19055,6 @@
         }
       ],
       "contractions": [
-        {
-          "variableName": "W",
-          "text": "W",
-          "voice": "WHISKEY"
-        },
-        {
-          "variableName": "E",
-          "text": "E",
-          "voice": "ECHO"
-        },
-        {
-          "variableName": "N",
-          "text": "N",
-          "voice": "NOVEMBER"
-        },
-        {
-          "variableName": "L",
-          "text": "L",
-          "voice": "LIMA"
-        },
         {
           "variableName": "R_NAV",
           "text": "R-NAV",
@@ -19320,7 +19128,7 @@
           "enabled": false
         },
         {
-          "text": "DATALINK DEP CLR AVBL",
+          "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 4,
           "enabled": false
         }
@@ -19359,7 +19167,7 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir} DEG {wind_spd} KT",
-              "voice": "WIND {wind_dir} AT {wind_spd} KNOTS"
+              "voice": "WIND {wind_dir} DEGREES AT {wind_spd} KNOTS"
             }
           },
           "standardGust": {
@@ -21332,7 +21140,7 @@
           "name": "EAST",
           "airportConditions": "EXPECT RNP Y APCH.\r\nRWY IN USE ^01.",
           "notams": "",
-          "template": "LERS ATIS [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LERS ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -21348,7 +21156,7 @@
           "name": "WEST",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^25.",
           "notams": "",
-          "template": "LERS ATIS [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LERS ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -21361,26 +21169,6 @@
         }
       ],
       "contractions": [
-        {
-          "variableName": "W",
-          "text": "W",
-          "voice": "WHISKEY"
-        },
-        {
-          "variableName": "E",
-          "text": "E",
-          "voice": "ECHO"
-        },
-        {
-          "variableName": "N",
-          "text": "N",
-          "voice": "NOVEMBER"
-        },
-        {
-          "variableName": "L",
-          "text": "L",
-          "voice": "LIMA"
-        },
         {
           "variableName": "R_NAV",
           "text": "R-NAV",
@@ -21454,9 +21242,9 @@
           "enabled": false
         },
         {
-          "text": "DATALINK DEP CLR AVBL",
+          "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 4,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -21493,7 +21281,7 @@
           "standard": {
             "template": {
               "text": "WIND {wind_dir} DEG {wind_spd} KT",
-              "voice": "WIND {wind_dir} AT {wind_spd} KNOTS"
+              "voice": "WIND {wind_dir} DEGREES AT {wind_spd} KNOTS"
             }
           },
           "standardGust": {
@@ -23466,7 +23254,7 @@
           "name": "EAST",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^12.",
           "notams": "",
-          "template": "LEVC ATIS [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEVC ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -23482,7 +23270,7 @@
           "name": "WEST",
           "airportConditions": "EXPECT ILS APCH.\r\nRWY IN USE ^30,",
           "notams": "",
-          "template": "LEVC ATIS [ATIS_CODE] [TIME]\r\n\r\n[ARPT_COND]\r\n[TL]\r\n\r\n[NOTAMS]\r\n\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n\r\n[CLOSING]",
+          "template": "LEVC ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -23495,26 +23283,6 @@
         }
       ],
       "contractions": [
-        {
-          "variableName": "W",
-          "text": "W",
-          "voice": "WHISKEY"
-        },
-        {
-          "variableName": "E",
-          "text": "E",
-          "voice": "ECHO"
-        },
-        {
-          "variableName": "N",
-          "text": "N",
-          "voice": "NOVEMBER"
-        },
-        {
-          "variableName": "L",
-          "text": "L",
-          "voice": "LIMA"
-        },
         {
           "variableName": "R_NAV",
           "text": "R-NAV",
@@ -23588,9 +23356,9 @@
           "enabled": false
         },
         {
-          "text": "DATALINK DEP CLR AVBL",
+          "text": "DATALINK DEP CLR AVBL.",
           "ordinal": 4,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": [
