@@ -2,7 +2,7 @@
   "name": "GCCC D-ATIS",
   "id": "fc439221-f4ba-4a9f-97be-5d0c9e72b71c",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20GCCC%20D-ATIS.json",
-  "updateSerial": 2026101101,
+  "updateSerial": 2026101102,
   "stations": [
     {
       "id": "9d78fce1-0e53-4204-a01b-9da6b434d032",
@@ -6224,7 +6224,7 @@
           "id": "c371007d-90b0-47e4-8d2f-9f1849163441",
           "name": "NORTH",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^03L AND FOR DEP ^03R.",
-          "notams": "",
+          "notams": "COMPLY 190 KNOTS IAS AT FALPU AND 160 AT 4 DME. ADVISE IF UNABLE. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY.",
           "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -6240,7 +6240,7 @@
           "id": "d1ebb30a-aba6-4004-ae4c-35640d2d5a2e",
           "name": "SOUTH",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^21R AND FOR DEP ^21L.",
-          "notams": "",
+          "notams": "COMPLY 190 KNOTS IAS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY. LPC VOR OUT OF SERVICE. EXPECT CONTINGENCY DEPARTURE RWY 21 LEFT.",
           "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -6256,7 +6256,7 @@
           "id": "c371007d-90b0-47e4-8d2f-9f1849163441",
           "name": "NORTH SINGLE",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^03L AND FOR DEP ^03L.",
-          "notams": "",
+          "notams": "COMPLY 190 KNOTS IAS AT FALPU AND 160 AT 4 DME. ADVISE IF UNABLE.",
           "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -6272,7 +6272,7 @@
           "id": "d1ebb30a-aba6-4004-ae4c-35640d2d5a2e",
           "name": "SOUTH SINGLE",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^21R AND FOR DEP ^21R.",
-          "notams": "",
+          "notams": "COMPLY 190 KNOTS IAS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE. LPC VOR OUT OF SERVICE. EXPECT CONTINGENCY DEPARTURE RWY 21 RIGHT.",
           "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -6288,7 +6288,7 @@
           "id": "c371007d-90b0-47e4-8d2f-9f1849163441",
           "name": "NORTH DUAL",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^03L AND FOR DEP ^03L AND ^03R.",
-          "notams": "",
+          "notams": "COMPLY 190 KNOTS IAS AT FALPU AND 160 AT 4 DME. ADVISE IF UNABLE. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY.",
           "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
@@ -6304,7 +6304,7 @@
           "id": "d1ebb30a-aba6-4004-ae4c-35640d2d5a2e",
           "name": "SOUTH DUAL",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^21R AND FOR DEP ^21L AND ^21R.",
-          "notams": "",
+          "notams": "COMPLY 190 KNOTS IAS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY. LPC VOR OUT OF SERVICE. EXPECT CONTINGENCY DEPARTURE RWY 21 RIGHT AND 21 LEFT.",
           "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
