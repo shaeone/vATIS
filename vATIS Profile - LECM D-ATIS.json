@@ -2,7 +2,7 @@
   "name": "LECM D-ATIS",
   "id": "a1a7b0fb-d109-4baf-bc82-f39090bd3dbd",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LECM%20D-ATIS.json",
-  "updateSerial": 2026101103,
+  "updateSerial": 2026101104,
   "stations": [
     {
       "id": "9d78fce1-0e53-4204-a01b-9da6b434d032",
@@ -2100,7 +2100,7 @@
           "enabled": false
         },
         {
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION.",
           "ordinal": 3,
           "enabled": false
         },
@@ -4214,7 +4214,7 @@
           "enabled": false
         },
         {
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION.",
           "ordinal": 3,
           "enabled": false
         },
@@ -6322,7 +6322,7 @@
           "enabled": false
         },
         {
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION.",
           "ordinal": 3,
           "enabled": false
         },
@@ -8430,7 +8430,7 @@
           "enabled": false
         },
         {
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION.",
           "ordinal": 3,
           "enabled": false
         },
@@ -10538,7 +10538,7 @@
           "enabled": false
         },
         {
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION.",
           "ordinal": 3,
           "enabled": false
         },
@@ -12708,7 +12708,7 @@
           "enabled": false
         },
         {
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION.",
           "ordinal": 3,
           "enabled": false
         },
@@ -14879,7 +14879,7 @@
           "enabled": false
         },
         {
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION.",
           "ordinal": 3,
           "enabled": false
         },
@@ -17039,7 +17039,7 @@
           "enabled": false
         },
         {
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION.",
           "ordinal": 3,
           "enabled": false
         },
@@ -19209,7 +19209,7 @@
           "enabled": false
         },
         {
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION.",
           "ordinal": 3,
           "enabled": false
         },
@@ -21328,7 +21328,7 @@
           "enabled": false
         },
         {
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION.",
           "ordinal": 3,
           "enabled": false
         },
@@ -23436,7 +23436,7 @@
           "enabled": false
         },
         {
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION.",
           "ordinal": 3,
           "enabled": false
         },
@@ -25544,7 +25544,7 @@
           "enabled": false
         },
         {
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION.",
           "ordinal": 3,
           "enabled": false
         },
@@ -27682,7 +27682,7 @@
           "enabled": false
         },
         {
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION.",
           "ordinal": 3,
           "enabled": false
         },
@@ -29820,7 +29820,7 @@
           "enabled": false
         },
         {
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION.",
           "ordinal": 3,
           "enabled": false
         },
@@ -31958,7 +31958,7 @@
           "enabled": false
         },
         {
-          "text": "LOW VISIBILITY PROCEDURES IN OPERATION",
+          "text": "LOW VISIBILITY PROCEDURES IN OPERATION.",
           "ordinal": 3,
           "enabled": false
         },
