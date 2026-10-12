@@ -2,7 +2,7 @@
   "name": "LECB D-ATIS",
   "id": "8bc139fd-1636-46eb-a284-a2c074f61606",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LECB%20D-ATIS.json",
-  "updateSerial": 2026101104,
+  "updateSerial": 2026101105,
   "stations": [
     {
       "id": "9d292887-ada6-47ea-bae7-6a15b69b0faa",
@@ -16891,7 +16891,7 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "CONFIRM ATIS {letter}",
+            "text": "CONFIRM ATIS DEP {letter}",
             "voice": "THIS WAS PALMA DE MALLORCA DEP INFORMATION {letter|word}"
           }
         }
@@ -19005,7 +19005,7 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "CONFIRM ATIS {letter}",
+            "text": "CONFIRM ATIS ARR {letter}",
             "voice": "THIS WAS PALMA DE MALLORCA ARR INFORMATION {letter|word}"
           }
         }

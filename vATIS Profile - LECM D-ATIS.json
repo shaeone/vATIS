@@ -2,7 +2,7 @@
   "name": "LECM D-ATIS",
   "id": "a1a7b0fb-d109-4baf-bc82-f39090bd3dbd",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LECM%20D-ATIS.json",
-  "updateSerial": 2026101104,
+  "updateSerial": 2026101105,
   "stations": [
     {
       "id": "9d78fce1-0e53-4204-a01b-9da6b434d032",
@@ -12549,7 +12549,7 @@
           "name": "NORTH DAY",
           "airportConditions": "RWY IN USE ^36L AND ^36R.",
           "notams": "",
-          "template": "LEMD ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
+          "template": "LEMD ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12565,7 +12565,7 @@
           "name": "SOUTH DAY",
           "airportConditions": "RWY IN USE ^14L AND ^14R\n",
           "notams": "",
-          "template": "LEMD ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
+          "template": "LEMD ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12581,7 +12581,7 @@
           "name": "NORTH NIGHT",
           "airportConditions": "RWY IN USE AND ^36L.\n",
           "notams": "",
-          "template": "LEMD ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
+          "template": "LEMD ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12597,7 +12597,7 @@
           "name": "SOUTH NIGHT",
           "airportConditions": "RWY IN USE ^14L\n",
           "notams": "",
-          "template": "LEMD ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
+          "template": "LEMD ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14710,7 +14710,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "CONFIRM ATIS ARR {letter}",
-            "voice": "THIS WAS MADRID DEP INFORMATION {letter|word}"
+            "voice": "THIS WAS MADRID ARR INFORMATION {letter|word}"
           }
         }
       },
@@ -16870,7 +16870,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "CONFIRM ATIS ARR {letter}",
-            "voice": "THIS WAS MALAGA DEP INFORMATION {letter|word}"
+            "voice": "THIS WAS MALAGA ARR INFORMATION {letter|word}"
           }
         }
       },
@@ -19050,7 +19050,7 @@
           "name": "NORTH",
           "airportConditions": "RWY IN USE FOR ARR ^31 AND FOR DEP 31^.",
           "notams": "",
-          "template": "LEMG ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
+          "template": "LEMG ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -19066,7 +19066,7 @@
           "name": "SOUTH",
           "airportConditions": "RWY IN USE FOR ARR ^12 AND FOR DEP ^12.",
           "notams": "",
-          "template": "LEMG ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
+          "template": "LEMG ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -19082,7 +19082,7 @@
           "name": "NORTH NIGHT",
           "airportConditions": "RWY IN USE FOR ARR ^31 AND FOR DEP ^30.",
           "notams": "",
-          "template": "LEMG ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
+          "template": "LEMG ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -19098,7 +19098,7 @@
           "name": "SOUTH NIGHT",
           "airportConditions": "RWY IN USE FOR ARR ^12 AND FOR DEP ^13.",
           "notams": "",
-          "template": "LEMG ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
+          "template": "LEMG ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -27534,7 +27534,7 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "CONFIRM ATIS DEP {letter}",
+            "text": "CONFIRM ATIS {letter}",
             "voice": "THIS WAS VIGO DEP INFORMATION {letter|word}"
           }
         }
@@ -29672,7 +29672,7 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "CONFIRM ATIS DEP {letter}",
+            "text": "CONFIRM ATIS {letter}",
             "voice": "THIS WAS SANTANDER DEP INFORMATION {letter|word}"
           }
         }
@@ -31810,7 +31810,7 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "CONFIRM ATIS DEP {letter}",
+            "text": "CONFIRM ATIS {letter}",
             "voice": "THIS WAS SEVILLA DEP INFORMATION {letter|word}"
           }
         }
