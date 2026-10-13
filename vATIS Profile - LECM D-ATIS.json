@@ -1,8 +1,8 @@
 {
   "name": "LECM D-ATIS",
-  "id": "55db01a7-b776-4c34-818a-fa363de1acca",
+  "id": "4818d01a-89a0-4944-a419-be0915a9d34d",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LECM%20D-ATIS.json",
-  "updateSerial": 2026101301,
+  "updateSerial": 2026101303,
   "stations": [
     {
       "id": "dc1c49aa-09f7-4187-914b-ae079b0297a9",
@@ -2043,29 +2043,9 @@
           "voice": "YOU-T-SEE"
         },
         {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "RWY",
-          "text": "RWY",
-          "voice": "RUNWAY"
-        },
-        {
-          "variableName": "RWYS",
-          "text": "RWYS",
-          "voice": "RUNWAYS"
-        },
-        {
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACH"
-        },
-        {
-          "variableName": "COND",
-          "text": "COND",
-          "voice": "CONDITION"
         },
         {
           "variableName": "Z",
@@ -4157,29 +4137,9 @@
           "voice": "YOU-T-SEE"
         },
         {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "RWY",
-          "text": "RWY",
-          "voice": "RUNWAY"
-        },
-        {
-          "variableName": "RWYS",
-          "text": "RWYS",
-          "voice": "RUNWAYS"
-        },
-        {
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACH"
-        },
-        {
-          "variableName": "COND",
-          "text": "COND",
-          "voice": "CONDITION"
         },
         {
           "variableName": "Z",
@@ -6265,29 +6225,9 @@
           "voice": "YOU-T-SEE"
         },
         {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "RWY",
-          "text": "RWY",
-          "voice": "RUNWAY"
-        },
-        {
-          "variableName": "RWYS",
-          "text": "RWYS",
-          "voice": "RUNWAYS"
-        },
-        {
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACH"
-        },
-        {
-          "variableName": "COND",
-          "text": "COND",
-          "voice": "CONDITION"
         },
         {
           "variableName": "Z",
@@ -8373,29 +8313,9 @@
           "voice": "YOU-T-SEE"
         },
         {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "RWY",
-          "text": "RWY",
-          "voice": "RUNWAY"
-        },
-        {
-          "variableName": "RWYS",
-          "text": "RWYS",
-          "voice": "RUNWAYS"
-        },
-        {
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACH"
-        },
-        {
-          "variableName": "COND",
-          "text": "COND",
-          "voice": "CONDITION"
         },
         {
           "variableName": "Z",
@@ -10481,29 +10401,9 @@
           "voice": "YOU-T-SEE"
         },
         {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "RWY",
-          "text": "RWY",
-          "voice": "RUNWAY"
-        },
-        {
-          "variableName": "RWYS",
-          "text": "RWYS",
-          "voice": "RUNWAYS"
-        },
-        {
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACH"
-        },
-        {
-          "variableName": "COND",
-          "text": "COND",
-          "voice": "CONDITION"
         },
         {
           "variableName": "Z",
@@ -12621,64 +12521,9 @@
           "voice": "YOU-T-SEE"
         },
         {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "RWY",
-          "text": "RWY",
-          "voice": "RUNWAY"
-        },
-        {
-          "variableName": "RWYS",
-          "text": "RWYS",
-          "voice": "RUNWAYS"
-        },
-        {
-          "variableName": "2W",
-          "text": "2W",
-          "voice": "TWO WHISKEY"
-        },
-        {
-          "variableName": "2L",
-          "text": "2L",
-          "voice": "TWO LIMA"
-        },
-        {
-          "variableName": "2N",
-          "text": "2N",
-          "voice": "TWO NOVEMBER"
-        },
-        {
-          "variableName": "2E",
-          "text": "2E",
-          "voice": "TWO ECHO"
-        },
-        {
-          "variableName": "UB",
-          "text": "UB",
-          "voice": "UNIFORM BRAVO"
-        },
-        {
-          "variableName": "U3L",
-          "text": "U3L",
-          "voice": "UNIFORM THREE LIMA"
-        },
-        {
-          "variableName": "ARR",
-          "text": "ARR",
-          "voice": "ARRIVAL"
-        },
-        {
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACH"
-        },
-        {
-          "variableName": "COND",
-          "text": "COND",
-          "voice": "CONDITION"
         },
         {
           "variableName": "Z",
@@ -12694,6 +12539,11 @@
           "variableName": "LEMD",
           "text": "LEMD",
           "voice": "THIS IS MADRID"
+        },
+        {
+          "variableName": "RWYCC",
+          "text": "RWYCC",
+          "voice": "RUNWAY CONDITION"
         }
       ],
       "airportConditionDefinitions": [
@@ -14797,54 +14647,9 @@
           "voice": "ARE-NAV"
         },
         {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "RWY",
-          "text": "RWY",
-          "voice": "RUNWAY"
-        },
-        {
-          "variableName": "RWYS",
-          "text": "RWYS",
-          "voice": "RUNWAYS"
-        },
-        {
-          "variableName": "2W",
-          "text": "2W",
-          "voice": "TWO WHISKEY"
-        },
-        {
-          "variableName": "2L",
-          "text": "2L",
-          "voice": "TWO LIMA"
-        },
-        {
-          "variableName": "2N",
-          "text": "2N",
-          "voice": "TWO NOVEMBER"
-        },
-        {
-          "variableName": "2E",
-          "text": "2E",
-          "voice": "TWO ECHO"
-        },
-        {
-          "variableName": "UB",
-          "text": "UB",
-          "voice": "UNIFORM BRAVO"
-        },
-        {
-          "variableName": "U3L",
-          "text": "U3L",
-          "voice": "UNIFORM THREE LIMA"
-        },
-        {
-          "variableName": "ARR",
-          "text": "ARR",
-          "voice": "ARRIVAL"
+          "variableName": "UTC",
+          "text": "UTC",
+          "voice": "YOU-T-SEE"
         },
         {
           "variableName": "APCH",
@@ -14852,19 +14657,24 @@
           "voice": "APPROACH"
         },
         {
-          "variableName": "COND",
-          "text": "COND",
-          "voice": "CONDITION"
-        },
-        {
           "variableName": "Z",
           "text": "Z",
           "voice": "ZULU"
         },
         {
+          "variableName": "CTC",
+          "text": "CTC",
+          "voice": "CONTACT"
+        },
+        {
           "variableName": "LEMD",
           "text": "LEMD",
           "voice": "THIS IS MADRID"
+        },
+        {
+          "variableName": "RWYCC",
+          "text": "RWYCC",
+          "voice": "RUNWAY CONDITION"
         }
       ],
       "airportConditionDefinitions": [
@@ -16957,54 +16767,9 @@
           "voice": "ARE-NAV"
         },
         {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "RWY",
-          "text": "RWY",
-          "voice": "RUNWAY"
-        },
-        {
-          "variableName": "RWYS",
-          "text": "RWYS",
-          "voice": "RUNWAYS"
-        },
-        {
-          "variableName": "2W",
-          "text": "2W",
-          "voice": "TWO WHISKEY"
-        },
-        {
-          "variableName": "2L",
-          "text": "2L",
-          "voice": "TWO LIMA"
-        },
-        {
-          "variableName": "2N",
-          "text": "2N",
-          "voice": "TWO NOVEMBER"
-        },
-        {
-          "variableName": "2E",
-          "text": "2E",
-          "voice": "TWO ECHO"
-        },
-        {
-          "variableName": "UB",
-          "text": "UB",
-          "voice": "UNIFORM BRAVO"
-        },
-        {
-          "variableName": "U3L",
-          "text": "U3L",
-          "voice": "UNIFORM THREE LIMA"
-        },
-        {
-          "variableName": "ARR",
-          "text": "ARR",
-          "voice": "ARRIVAL"
+          "variableName": "UTC",
+          "text": "UTC",
+          "voice": "YOU-T-SEE"
         },
         {
           "variableName": "APCH",
@@ -17012,19 +16777,24 @@
           "voice": "APPROACH"
         },
         {
-          "variableName": "COND",
-          "text": "COND",
-          "voice": "CONDITION"
-        },
-        {
           "variableName": "Z",
           "text": "Z",
           "voice": "ZULU"
         },
         {
+          "variableName": "CTC",
+          "text": "CTC",
+          "voice": "CONTACT"
+        },
+        {
           "variableName": "LEMG",
           "text": "LEMG",
           "voice": "THIS IS MALAGA"
+        },
+        {
+          "variableName": "RWYCC",
+          "text": "RWYCC",
+          "voice": "RUNWAY CONDITION"
         }
       ],
       "airportConditionDefinitions": [
@@ -19122,64 +18892,9 @@
           "voice": "YOU-T-SEE"
         },
         {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "RWY",
-          "text": "RWY",
-          "voice": "RUNWAY"
-        },
-        {
-          "variableName": "RWYS",
-          "text": "RWYS",
-          "voice": "RUNWAYS"
-        },
-        {
-          "variableName": "2W",
-          "text": "2W",
-          "voice": "TWO WHISKEY"
-        },
-        {
-          "variableName": "2L",
-          "text": "2L",
-          "voice": "TWO LIMA"
-        },
-        {
-          "variableName": "2N",
-          "text": "2N",
-          "voice": "TWO NOVEMBER"
-        },
-        {
-          "variableName": "2E",
-          "text": "2E",
-          "voice": "TWO ECHO"
-        },
-        {
-          "variableName": "UB",
-          "text": "UB",
-          "voice": "UNIFORM BRAVO"
-        },
-        {
-          "variableName": "U3L",
-          "text": "U3L",
-          "voice": "UNIFORM THREE LIMA"
-        },
-        {
-          "variableName": "ARR",
-          "text": "ARR",
-          "voice": "ARRIVAL"
-        },
-        {
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACH"
-        },
-        {
-          "variableName": "COND",
-          "text": "COND",
-          "voice": "CONDITION"
         },
         {
           "variableName": "Z",
@@ -19195,6 +18910,11 @@
           "variableName": "LEMG",
           "text": "LEMG",
           "voice": "THIS IS MALAGA"
+        },
+        {
+          "variableName": "RWYCC",
+          "text": "RWYCC",
+          "voice": "RUNWAY CONDITION"
         }
       ],
       "airportConditionDefinitions": [
@@ -21271,29 +20991,9 @@
           "voice": "YOU-T-SEE"
         },
         {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "RWY",
-          "text": "RWY",
-          "voice": "RUNWAY"
-        },
-        {
-          "variableName": "RWYS",
-          "text": "RWYS",
-          "voice": "RUNWAYS"
-        },
-        {
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACH"
-        },
-        {
-          "variableName": "COND",
-          "text": "COND",
-          "voice": "CONDITION"
         },
         {
           "variableName": "Z",
@@ -21308,7 +21008,7 @@
         {
           "variableName": "LEST",
           "text": "LEST",
-          "voice": "SANTIAGO"
+          "voice": "THIS IS SANTIAGO"
         },
         {
           "variableName": "RWYCC",
@@ -23379,29 +23079,9 @@
           "voice": "YOU-T-SEE"
         },
         {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "RWY",
-          "text": "RWY",
-          "voice": "RUNWAY"
-        },
-        {
-          "variableName": "RWYS",
-          "text": "RWYS",
-          "voice": "RUNWAYS"
-        },
-        {
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACH"
-        },
-        {
-          "variableName": "COND",
-          "text": "COND",
-          "voice": "CONDITION"
         },
         {
           "variableName": "Z",
@@ -23414,9 +23094,9 @@
           "voice": "CONTACT"
         },
         {
-          "variableName": "LESO",
-          "text": "LESO",
-          "voice": "SAN SEBASTIAN"
+          "variableName": "LEMG",
+          "text": "LEMG",
+          "voice": "THIS IS SAN SEBASTIAN"
         },
         {
           "variableName": "RWYCC",
@@ -25487,29 +25167,9 @@
           "voice": "YOU-T-SEE"
         },
         {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "RWY",
-          "text": "RWY",
-          "voice": "RUNWAY"
-        },
-        {
-          "variableName": "RWYS",
-          "text": "RWYS",
-          "voice": "RUNWAYS"
-        },
-        {
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACH"
-        },
-        {
-          "variableName": "COND",
-          "text": "COND",
-          "voice": "CONDITION"
         },
         {
           "variableName": "Z",
@@ -27595,29 +27255,9 @@
           "voice": "YOU-T-SEE"
         },
         {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "RWY",
-          "text": "RWY",
-          "voice": "RUNWAY"
-        },
-        {
-          "variableName": "RWYS",
-          "text": "RWYS",
-          "voice": "RUNWAYS"
-        },
-        {
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACH"
-        },
-        {
-          "variableName": "COND",
-          "text": "COND",
-          "voice": "CONDITION"
         },
         {
           "variableName": "Z",
@@ -29703,64 +29343,9 @@
           "voice": "YOU-T-SEE"
         },
         {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "RWY",
-          "text": "RWY",
-          "voice": "RUNWAY"
-        },
-        {
-          "variableName": "RWYS",
-          "text": "RWYS",
-          "voice": "RUNWAYS"
-        },
-        {
-          "variableName": "2W",
-          "text": "2W",
-          "voice": "TWO WHISKEY"
-        },
-        {
-          "variableName": "2L",
-          "text": "2L",
-          "voice": "TWO LIMA"
-        },
-        {
-          "variableName": "2N",
-          "text": "2N",
-          "voice": "TWO NOVEMBER"
-        },
-        {
-          "variableName": "2E",
-          "text": "2E",
-          "voice": "TWO ECHO"
-        },
-        {
-          "variableName": "UB",
-          "text": "UB",
-          "voice": "UNIFORM BRAVO"
-        },
-        {
-          "variableName": "U3L",
-          "text": "U3L",
-          "voice": "UNIFORM THREE LIMA"
-        },
-        {
-          "variableName": "ARR",
-          "text": "ARR",
-          "voice": "ARRIVAL"
-        },
-        {
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACH"
-        },
-        {
-          "variableName": "COND",
-          "text": "COND",
-          "voice": "CONDITION"
         },
         {
           "variableName": "Z",
@@ -29776,6 +29361,11 @@
           "variableName": "LEVX",
           "text": "LEVX",
           "voice": "THIS IS VIGO"
+        },
+        {
+          "variableName": "RWYCC",
+          "text": "RWYCC",
+          "voice": "RUNWAY CONDITION"
         }
       ],
       "airportConditionDefinitions": [
@@ -31841,64 +31431,9 @@
           "voice": "YOU-T-SEE"
         },
         {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "RWY",
-          "text": "RWY",
-          "voice": "RUNWAY"
-        },
-        {
-          "variableName": "RWYS",
-          "text": "RWYS",
-          "voice": "RUNWAYS"
-        },
-        {
-          "variableName": "2W",
-          "text": "2W",
-          "voice": "TWO WHISKEY"
-        },
-        {
-          "variableName": "2L",
-          "text": "2L",
-          "voice": "TWO LIMA"
-        },
-        {
-          "variableName": "2N",
-          "text": "2N",
-          "voice": "TWO NOVEMBER"
-        },
-        {
-          "variableName": "2E",
-          "text": "2E",
-          "voice": "TWO ECHO"
-        },
-        {
-          "variableName": "UB",
-          "text": "UB",
-          "voice": "UNIFORM BRAVO"
-        },
-        {
-          "variableName": "U3L",
-          "text": "U3L",
-          "voice": "UNIFORM THREE LIMA"
-        },
-        {
-          "variableName": "ARR",
-          "text": "ARR",
-          "voice": "ARRIVAL"
-        },
-        {
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACH"
-        },
-        {
-          "variableName": "COND",
-          "text": "COND",
-          "voice": "CONDITION"
         },
         {
           "variableName": "Z",
@@ -31914,6 +31449,11 @@
           "variableName": "LEXJ",
           "text": "LEXJ",
           "voice": "THIS IS SANTANDER"
+        },
+        {
+          "variableName": "RWYCC",
+          "text": "RWYCC",
+          "voice": "RUNWAY CONDITION"
         }
       ],
       "airportConditionDefinitions": [
@@ -33979,64 +33519,9 @@
           "voice": "YOU-T-SEE"
         },
         {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "RWY",
-          "text": "RWY",
-          "voice": "RUNWAY"
-        },
-        {
-          "variableName": "RWYS",
-          "text": "RWYS",
-          "voice": "RUNWAYS"
-        },
-        {
-          "variableName": "2W",
-          "text": "2W",
-          "voice": "TWO WHISKEY"
-        },
-        {
-          "variableName": "2L",
-          "text": "2L",
-          "voice": "TWO LIMA"
-        },
-        {
-          "variableName": "2N",
-          "text": "2N",
-          "voice": "TWO NOVEMBER"
-        },
-        {
-          "variableName": "2E",
-          "text": "2E",
-          "voice": "TWO ECHO"
-        },
-        {
-          "variableName": "UB",
-          "text": "UB",
-          "voice": "UNIFORM BRAVO"
-        },
-        {
-          "variableName": "U3L",
-          "text": "U3L",
-          "voice": "UNIFORM THREE LIMA"
-        },
-        {
-          "variableName": "ARR",
-          "text": "ARR",
-          "voice": "ARRIVAL"
-        },
-        {
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACH"
-        },
-        {
-          "variableName": "COND",
-          "text": "COND",
-          "voice": "CONDITION"
         },
         {
           "variableName": "Z",
@@ -34052,6 +33537,11 @@
           "variableName": "LEZL",
           "text": "LEZL",
           "voice": "THIS IS SEVILLA"
+        },
+        {
+          "variableName": "RWYCC",
+          "text": "RWYCC",
+          "voice": "RUNWAY CONDITION"
         }
       ],
       "airportConditionDefinitions": [

@@ -1,8 +1,8 @@
 {
   "name": "GCCC D-ATIS",
-  "id": "d6b72740-ea85-4241-bb72-ce4376cf1e4f",
+  "id": "2e5cb763-4c62-48d3-aa00-70e995a536ee",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20GCCC%20D-ATIS.json",
-  "updateSerial": 2026101301,
+  "updateSerial": 2026101303,
   "stations": [
     {
       "id": "7dd8fe85-460d-4a2c-b796-fee9d2a35823",
@@ -2043,29 +2043,9 @@
           "voice": "YOU-T-SEE"
         },
         {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "RWY",
-          "text": "RWY",
-          "voice": "RUNWAY"
-        },
-        {
-          "variableName": "RWYS",
-          "text": "RWYS",
-          "voice": "RUNWAYS"
-        },
-        {
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACH"
-        },
-        {
-          "variableName": "COND",
-          "text": "COND",
-          "voice": "CONDITION"
         },
         {
           "variableName": "Z",
@@ -4157,29 +4137,9 @@
           "voice": "YOU-T-SEE"
         },
         {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "RWY",
-          "text": "RWY",
-          "voice": "RUNWAY"
-        },
-        {
-          "variableName": "RWYS",
-          "text": "RWYS",
-          "voice": "RUNWAYS"
-        },
-        {
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACH"
-        },
-        {
-          "variableName": "COND",
-          "text": "COND",
-          "voice": "CONDITION"
         },
         {
           "variableName": "Z",
@@ -6329,29 +6289,9 @@
           "voice": "YOU-T-SEE"
         },
         {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "RWY",
-          "text": "RWY",
-          "voice": "RUNWAY"
-        },
-        {
-          "variableName": "RWYS",
-          "text": "RWYS",
-          "voice": "RUNWAYS"
-        },
-        {
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACH"
-        },
-        {
-          "variableName": "COND",
-          "text": "COND",
-          "voice": "CONDITION"
         },
         {
           "variableName": "Z",
@@ -8437,29 +8377,9 @@
           "voice": "YOU-T-SEE"
         },
         {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "RWY",
-          "text": "RWY",
-          "voice": "RUNWAY"
-        },
-        {
-          "variableName": "RWYS",
-          "text": "RWYS",
-          "voice": "RUNWAYS"
-        },
-        {
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACH"
-        },
-        {
-          "variableName": "COND",
-          "text": "COND",
-          "voice": "CONDITION"
         },
         {
           "variableName": "Z",
@@ -10545,29 +10465,9 @@
           "voice": "YOU-T-SEE"
         },
         {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "RWY",
-          "text": "RWY",
-          "voice": "RUNWAY"
-        },
-        {
-          "variableName": "RWYS",
-          "text": "RWYS",
-          "voice": "RUNWAYS"
-        },
-        {
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACH"
-        },
-        {
-          "variableName": "COND",
-          "text": "COND",
-          "voice": "CONDITION"
         },
         {
           "variableName": "Z",
@@ -12653,29 +12553,9 @@
           "voice": "YOU-T-SEE"
         },
         {
-          "variableName": "Y",
-          "text": "Y",
-          "voice": "YANKEE"
-        },
-        {
-          "variableName": "RWY",
-          "text": "RWY",
-          "voice": "RUNWAY"
-        },
-        {
-          "variableName": "RWYS",
-          "text": "RWYS",
-          "voice": "RUNWAYS"
-        },
-        {
           "variableName": "APCH",
           "text": "APCH",
           "voice": "APPROACH"
-        },
-        {
-          "variableName": "COND",
-          "text": "COND",
-          "voice": "CONDITION"
         },
         {
           "variableName": "Z",
