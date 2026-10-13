@@ -21231,7 +21231,7 @@
           "name": "NORTH",
           "airportConditions": "EXPECT ILS Z APCH. RWY IN USE ^35.",
           "notams": "",
-          "template": "",
+          "template": "LEST ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -23335,11 +23335,11 @@
       },
       "presets": [
         {
-          "id": "88bacd3c-b19f-4b9d-bead-e06f3913ecc5",
+          "id": "ad28e2d3-8ebd-48ee-b9eb-efaa5abbd55a",
           "name": "NORTH",
           "airportConditions": "EXPECT RNP A APCH. RWY IN USE ^04.",
           "notams": "",
-          "template": "",
+          "template": "LESO ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -23351,11 +23351,11 @@
           }
         },
         {
-          "id": "f3eb9bb2-863f-4753-9e15-ba145c59491c",
+          "id": "f816768c-cc0c-438b-aa3c-75320bf75f2e",
           "name": "SOUTH",
           "airportConditions": "EXPECT RNAV Y APCH. RWY IN USE ^22.",
           "notams": "",
-          "template": "LEST ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
+          "template": "LESO ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
