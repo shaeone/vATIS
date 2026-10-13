@@ -1,8 +1,8 @@
 {
   "name": "LECM D-ATIS",
-  "id": "a1a7b0fb-d109-4baf-bc82-f39090bd3dbd",
+  "id": "55db01a7-b776-4c34-818a-fa363de1acca",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LECM%20D-ATIS.json",
-  "updateSerial": 2026101106,
+  "updateSerial": 2026101107,
   "stations": [
     {
       "id": "9d78fce1-0e53-4204-a01b-9da6b434d032",
@@ -21341,7 +21341,7 @@
       "notamDefinitions": []
     },
     {
-      "id": "e35cb23c-efde-4e4a-9722-38e3372add43",
+      "id": "368524d9-d2e6-4aa8-91a7-15ad69cf20f1",
       "ordinal": 0,
       "identifier": "LESO",
       "name": "San Sebastian",
