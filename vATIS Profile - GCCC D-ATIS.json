@@ -2,7 +2,7 @@
   "name": "GCCC D-ATIS",
   "id": "2e5cb763-4c62-48d3-aa00-70e995a536ee",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20GCCC%20D-ATIS.json",
-  "updateSerial": 2026101303,
+  "updateSerial": 2026101305,
   "stations": [
     {
       "id": "7dd8fe85-460d-4a2c-b796-fee9d2a35823",
@@ -2003,7 +2003,7 @@
           "name": "NORTH",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^01.",
           "notams": "",
-          "template": "GCFV ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "template": "GCFV ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2019,7 +2019,7 @@
           "name": "SOUTH",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^19.",
           "notams": "",
-          "template": "GCFV ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "template": "GCFV ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4097,7 +4097,7 @@
           "name": "NORTH",
           "airportConditions": "EXPECT RNP Y APCH.\nRWY IN USE ^36.",
           "notams": "",
-          "template": "GCLA ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
+          "template": "GCLA ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4113,7 +4113,7 @@
           "name": "SOUTH",
           "airportConditions": "EXPECT RNP A APCH.\nRWY IN USE ^18.",
           "notams": "",
-          "template": "GCLA ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
+          "template": "GCLA ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6185,7 +6185,7 @@
           "name": "NORTH",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^03L AND FOR DEP ^03R.",
           "notams": "COMPLY 190 KNOTS IAS AT FALPU AND 160 AT 4 DME. ADVISE IF UNABLE. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY.",
-          "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
+          "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6201,7 +6201,7 @@
           "name": "SOUTH",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^21R AND FOR DEP ^21L.",
           "notams": "COMPLY 190 KNOTS IAS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY. LPC VOR OUT OF SERVICE. EXPECT CONTINGENCY DEPARTURE RWY 21 LEFT.",
-          "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
+          "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6217,7 +6217,7 @@
           "name": "NORTH SINGLE",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^03L AND FOR DEP ^03L.",
           "notams": "COMPLY 190 KNOTS IAS AT FALPU AND 160 AT 4 DME. ADVISE IF UNABLE.",
-          "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
+          "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6233,7 +6233,7 @@
           "name": "SOUTH SINGLE",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^21R AND FOR DEP ^21R.",
           "notams": "COMPLY 190 KNOTS IAS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE. LPC VOR OUT OF SERVICE. EXPECT CONTINGENCY DEPARTURE RWY 21 RIGHT.",
-          "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
+          "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6249,7 +6249,7 @@
           "name": "NORTH DUAL",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^03L AND FOR DEP ^03L AND ^03R.",
           "notams": "COMPLY 190 KNOTS IAS AT FALPU AND 160 AT 4 DME. ADVISE IF UNABLE. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY.",
-          "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
+          "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6265,7 +6265,7 @@
           "name": "SOUTH DUAL",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^21R AND FOR DEP ^21L AND ^21R.",
           "notams": "COMPLY 190 KNOTS IAS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY. LPC VOR OUT OF SERVICE. EXPECT CONTINGENCY DEPARTURE RWY 21 RIGHT AND 21 LEFT.",
-          "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
+          "template": "GCLP ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8337,7 +8337,7 @@
           "name": "NORTH",
           "airportConditions": "EXPECT ILS APCH.\nRWY IN USE ^03.",
           "notams": "",
-          "template": "GCRR ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
+          "template": "GCRR ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8353,7 +8353,7 @@
           "name": "SOUTH",
           "airportConditions": "EXPECT RNP APCH.\nRWY IN USE ^21.",
           "notams": "",
-          "template": "GCRR ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
+          "template": "GCRR ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -10425,7 +10425,7 @@
           "name": "EAST",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^07.",
           "notams": "",
-          "template": "GCTS ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
+          "template": "GCTS ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -10441,7 +10441,7 @@
           "name": "WEST",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^25.",
           "notams": "",
-          "template": "GCTS ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
+          "template": "GCTS ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12513,7 +12513,7 @@
           "name": "EAST",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^12.",
           "notams": "",
-          "template": "GCXO ATIS [ATIS_CODE] [TIME]\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WIND]\r\n[VIS] [CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]\r\n[CLOSING]",
+          "template": "GCXO ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12529,7 +12529,7 @@
           "name": "WEST",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^30.",
           "notams": "",
-          "template": "GCXO ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
+          "template": "GCXO ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
