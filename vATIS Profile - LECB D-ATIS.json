@@ -2,7 +2,7 @@
   "name": "LECB D-ATIS",
   "id": "58b59bde-7ce3-4071-a01a-af269ac3735a",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LECB%20D-ATIS.json",
-  "updateSerial": 2026101304,
+  "updateSerial": 2026101305,
   "stations": [
     {
       "id": "f5306cb5-8b2d-44f4-9355-ac82f8e72317",
@@ -20918,7 +20918,7 @@
         {
           "id": "9b8acda8-226a-41e4-b745-cb634c0de3bb",
           "name": "EAST",
-          "airportConditions": "EXPECT RNP Y APCH.\r\nRWY IN USE ^01.",
+          "airportConditions": "EXPECT RNP Y APCH.\r\nRWY IN USE ^07.",
           "notams": "",
           "template": "LERS ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {

@@ -2,7 +2,7 @@
   "name": "LECM D-ATIS",
   "id": "4818d01a-89a0-4944-a419-be0915a9d34d",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LECM%20D-ATIS.json",
-  "updateSerial": 2026101308,
+  "updateSerial": 2026101309,
   "stations": [
     {
       "id": "dc1c49aa-09f7-4187-914b-ae079b0297a9",
@@ -8281,7 +8281,7 @@
         {
           "id": "b9c63ebd-9812-4782-9d3d-0f2ed9c2a572",
           "name": "WEST",
-          "airportConditions": "EXPECT CIRCLING TO LAND APCH. RWY IN USE ^25.",
+          "airportConditions": "EXPECT CIRCLING TO LAND APCH. RWY IN USE ^27.",
           "notams": "",
           "template": "LEGR ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS] [CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[CLOSING]",
           "externalGenerator": {
