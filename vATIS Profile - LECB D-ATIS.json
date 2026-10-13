@@ -1,11 +1,11 @@
 {
   "name": "LECB D-ATIS",
-  "id": "8bc139fd-1636-46eb-a284-a2c074f61606",
+  "id": "f2a89fd5-b99a-4b9a-956c-07421c45b11c",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LECB%20D-ATIS.json",
-  "updateSerial": 2026101105,
+  "updateSerial": 2026101301,
   "stations": [
     {
-      "id": "9d292887-ada6-47ea-bae7-6a15b69b0faa",
+      "id": "f5306cb5-8b2d-44f4-9355-ac82f8e72317",
       "ordinal": 0,
       "identifier": "LEBL",
       "name": "Barcelona",
@@ -1999,7 +1999,7 @@
       },
       "presets": [
         {
-          "id": "8f051d09-f2ed-45f8-8afb-4eaf2da5860a",
+          "id": "2f24a580-0653-4d9d-8aaa-8a3d0dcfa678",
           "name": "WRL",
           "airportConditions": "RWY IN USE FOR ARR ^24R AND FOR DEP ^24L.",
           "notams": "",
@@ -2015,7 +2015,7 @@
           }
         },
         {
-          "id": "9418f534-553f-4bf2-b0a5-8d728af8d887",
+          "id": "43ce777a-04e9-45af-8276-332abd130a9c",
           "name": "WLL",
           "airportConditions": "RWY IN USE FOR ARR ^24L AND FOR DEP ^24L.",
           "notams": "",
@@ -2031,7 +2031,7 @@
           }
         },
         {
-          "id": "7a78e76a-6481-4842-9e62-5a3a9a122a8c",
+          "id": "7550a64d-4a7c-4b29-bc5b-ca19ea3ba497",
           "name": "ENR",
           "airportConditions": "RWY IN USE FOR ARR ^02 AND FOR DEP ^06R.",
           "notams": "",
@@ -2047,7 +2047,7 @@
           }
         },
         {
-          "id": "3c922a7f-b8f2-42d1-b77e-c24304c08567",
+          "id": "2beae202-3bdd-4d48-ae3c-09ee6130351c",
           "name": "ELR",
           "airportConditions": "RWY IN USE FOR ARR ^06L AND FOR DEP ^06R.",
           "notams": "",
@@ -2191,7 +2191,7 @@
       ]
     },
     {
-      "id": "55e4d8b4-61d6-41be-90a6-079b1f76d9cd",
+      "id": "e9d2c278-7d71-4944-9bc5-184bc648d5c3",
       "ordinal": 0,
       "identifier": "LEBL",
       "name": "Barcelona",
@@ -4185,7 +4185,7 @@
       },
       "presets": [
         {
-          "id": "d79cb37c-2ae3-4e2e-9198-ef47ccb90e0a",
+          "id": "b18c9786-d9e3-44e8-b95b-c2e2079f7929",
           "name": "WRL",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^24R AND FOR DEP ^24L.\r\nHIGH INTENSITY RUNWAY OPERATIONS IN FORCE.",
           "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2W APCH TRANSITIONS FOR RUNWAY 24R.",
@@ -4201,7 +4201,7 @@
           }
         },
         {
-          "id": "47f82f77-e047-4e49-be0b-a172c557dd8a",
+          "id": "c8685408-8546-447c-9cfe-77ed1fe16633",
           "name": "WLL",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^24L AND FOR DEP ^24L.\r\nHIGH INTENSITY RUNWAY OPERATIONS IN FORCE.",
           "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2L APCH TRANSITIONS FOR RUNWAY 24L.",
@@ -4217,7 +4217,7 @@
           }
         },
         {
-          "id": "78066058-3ae4-4723-89f8-73e6484b857c",
+          "id": "dda8220c-52f6-40f1-b1e9-03a496bc0d5a",
           "name": "ENR",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^02 AND FOR DEP ^06R.\r\nARR ACFT MUST USE EXIT UB, RWY 02 LAST EXIT AVAILABLE U3L.",
           "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2N APCH TRANSITIONS FOR RUNWAY 02.",
@@ -4233,7 +4233,7 @@
           }
         },
         {
-          "id": "483e6dfa-2306-4f4c-951c-0011b9f26104",
+          "id": "e8ae452b-82bd-477f-9375-722ea1a36c55",
           "name": "ELR",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^06L AND FOR DEP ^06R.\r\nHIGH INTENSITY RUNWAY OPERATIONS IN FORCE.",
           "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2E APCH TRANSITIONS FOR RUNWAY 06L.",
@@ -4356,7 +4356,7 @@
       "notamDefinitions": []
     },
     {
-      "id": "9d78fce1-0e53-4204-a01b-9da6b434d032",
+      "id": "ca89aa05-d7af-40ab-8428-40b58cb43d1f",
       "ordinal": 0,
       "identifier": "LEAL",
       "name": "Alicante",
@@ -6350,7 +6350,7 @@
       },
       "presets": [
         {
-          "id": "fb5306f7-b2db-4fb4-8689-d367fabf0a4d",
+          "id": "e71cb457-3071-4252-af1e-0f574247a038",
           "name": "EAST",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^10.",
           "notams": "",
@@ -6366,7 +6366,7 @@
           }
         },
         {
-          "id": "800d2252-7487-4f67-8701-7d3eafd7f446",
+          "id": "0224e410-0860-4125-9157-f1ad802ebd84",
           "name": "WEST",
           "airportConditions": "EXPECT RNP Y APCH.\r\nRWY IN USE ^28.",
           "notams": "",
@@ -6464,7 +6464,7 @@
       "notamDefinitions": []
     },
     {
-      "id": "0f976ef1-cd68-4838-8c1a-a61c159f2129",
+      "id": "60979bff-7697-4531-a1e1-6becc1c6327b",
       "ordinal": 0,
       "identifier": "LEGE",
       "name": "Girona",
@@ -8458,7 +8458,7 @@
       },
       "presets": [
         {
-          "id": "85f75126-779a-43dc-a948-148fcb1ff440",
+          "id": "35c6c850-97fa-477f-9622-c7983a9dd229",
           "name": "NORTH",
           "airportConditions": "EXPECT RNP Y APCH.\r\nRWY IN USE ^01.",
           "notams": "",
@@ -8474,7 +8474,7 @@
           }
         },
         {
-          "id": "29ad40e9-3cd6-4105-af7d-b7657bf26978",
+          "id": "b18b1f0b-0461-4744-aa7f-3b6253aa1562",
           "name": "SOUTH",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^19.",
           "notams": "",
@@ -8572,7 +8572,7 @@
       "notamDefinitions": []
     },
     {
-      "id": "6024988d-65c9-4c72-826b-6a1cfa24285f",
+      "id": "08553206-9132-44e7-9ad3-ae566db2b003",
       "ordinal": 0,
       "identifier": "LEIB",
       "name": "Ibiza",
@@ -10566,7 +10566,7 @@
       },
       "presets": [
         {
-          "id": "c371007d-90b0-47e4-8d2f-9f1849163441",
+          "id": "d3f4008d-2099-44f0-bb63-27507707230f",
           "name": "EAST",
           "airportConditions": "EXPECT ILS APCH.\r\nRWY IN USE ^06.",
           "notams": "",
@@ -10582,7 +10582,7 @@
           }
         },
         {
-          "id": "d1ebb30a-aba6-4004-ae4c-35640d2d5a2e",
+          "id": "f50ae1c2-6a2a-4cf9-9d1b-2e3b17fd7b28",
           "name": "WEST",
           "airportConditions": "EXPECT ILS APCH.\r\nRWY IN USE ^24.",
           "notams": "",
@@ -10686,7 +10686,7 @@
       ]
     },
     {
-      "id": "55162069-5814-4a5f-ad5f-8816d26e1060",
+      "id": "77cdd808-fc38-4613-9655-e90e2ca499ae",
       "ordinal": 0,
       "identifier": "LELC",
       "name": "San Javier",
@@ -12680,7 +12680,7 @@
       },
       "presets": [
         {
-          "id": "b27dec74-b685-4faf-b0f1-96c87a9478b2",
+          "id": "e3b5a15b-c8f4-46ba-a625-b0d85e54926c",
           "name": "EAST",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^04.",
           "notams": "",
@@ -12696,7 +12696,7 @@
           }
         },
         {
-          "id": "8f89c0fc-59ce-4143-8b71-ee3b0325c344",
+          "id": "9cefc70e-cb54-444e-a8e9-86e0c150b25b",
           "name": "WEST",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^22L.",
           "notams": "",
@@ -12800,7 +12800,7 @@
       ]
     },
     {
-      "id": "ed41dabd-c56a-4ad4-81e3-eebe5f56e104",
+      "id": "8009f30b-cca8-4d1c-9b8d-6a404b8e0217",
       "ordinal": 0,
       "identifier": "LEMH",
       "name": "Menorca",
@@ -14794,7 +14794,7 @@
       },
       "presets": [
         {
-          "id": "c2c974cc-d54a-4341-8744-2bf762c105c2",
+          "id": "422869e0-1137-45f9-a3e4-a33f6971ce14",
           "name": "NORTH",
           "airportConditions": "EXPECT ILS Y APCH.\r\nRWY IN USE ^01.",
           "notams": "",
@@ -14810,7 +14810,7 @@
           }
         },
         {
-          "id": "bfa8e2f7-244b-467d-aa0e-84dbb754eae1",
+          "id": "3ecc9d4b-e07b-4cc2-9934-5d7ad71cc495",
           "name": "SOUTH",
           "airportConditions": "EXPECT ILS Y APCH.\r\nRWY IN USE ^01.",
           "notams": "",
@@ -14914,7 +14914,7 @@
       ]
     },
     {
-      "id": "e35cb23c-efde-4e4a-9722-38e3372add43",
+      "id": "58b73ec1-676e-4c44-8407-1cf3ee6c325e",
       "ordinal": 0,
       "identifier": "LEPA",
       "name": "Palma de Mallorca",
@@ -16908,7 +16908,7 @@
       },
       "presets": [
         {
-          "id": "88bacd3c-b19f-4b9d-bead-e06f3913ecc5",
+          "id": "083e6c1c-6b0b-429b-a969-44ec8367350f",
           "name": "EAST",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^06L AND FOR DEP ^06R.",
           "notams": "",
@@ -16924,7 +16924,7 @@
           }
         },
         {
-          "id": "f3eb9bb2-863f-4753-9e15-ba145c59491c",
+          "id": "fe49153e-4085-4b6f-aa3f-3005d6bddb6a",
           "name": "WEST",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^24L AND FOR DEP ^24R.",
           "notams": "",
@@ -17028,7 +17028,7 @@
       ]
     },
     {
-      "id": "c2e8f6e1-8169-45b0-bc58-49e7eb4ef3fb",
+      "id": "eda6f76b-a350-4325-b34e-0cbdbc2d390f",
       "ordinal": 0,
       "identifier": "LEPA",
       "name": "Palma de Mallorca",
@@ -19022,7 +19022,7 @@
       },
       "presets": [
         {
-          "id": "eacb12a0-222f-406c-b109-2a129f49046d",
+          "id": "32fbc3f9-d02a-4e4a-801a-d5cd2938775c",
           "name": "EAST",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^06L AND FOR DEP ^06R.",
           "notams": "",
@@ -19038,7 +19038,7 @@
           }
         },
         {
-          "id": "c671984c-362d-41dc-a766-550176e12563",
+          "id": "960c25b2-6ffc-4b81-b36b-1de061b3de3a",
           "name": "WEST",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^24L AND FOR DEP ^24R.",
           "notams": "",
@@ -19142,7 +19142,7 @@
       ]
     },
     {
-      "id": "32e8bfe0-9446-4e4f-a99a-16287c382b28",
+      "id": "6597a34b-57e8-4e1e-a8d1-1d4612cdb528",
       "ordinal": 0,
       "identifier": "LERS",
       "name": "Reus",
@@ -21136,7 +21136,7 @@
       },
       "presets": [
         {
-          "id": "4f12297c-f8f0-402f-b9ec-132476e6e20e",
+          "id": "9b8acda8-226a-41e4-b745-cb634c0de3bb",
           "name": "EAST",
           "airportConditions": "EXPECT RNP Y APCH.\r\nRWY IN USE ^01.",
           "notams": "",
@@ -21152,7 +21152,7 @@
           }
         },
         {
-          "id": "a6095bd8-ca44-42de-896d-8e91ae058104",
+          "id": "1820d7bb-1026-4a91-a0d5-1709c16a762d",
           "name": "WEST",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^25.",
           "notams": "",
@@ -21256,7 +21256,7 @@
       ]
     },
     {
-      "id": "fabb5734-1759-44c3-a2a4-2cacd51c413e",
+      "id": "b061b7b5-5b29-4b1a-9269-75105759a434",
       "ordinal": 0,
       "identifier": "LEVC",
       "name": "Valencia",
@@ -23250,7 +23250,7 @@
       },
       "presets": [
         {
-          "id": "30ba1e64-0278-4f03-8470-313aecb0735a",
+          "id": "e706ed80-0276-457d-8988-8eef147ccd5d",
           "name": "EAST",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^12.",
           "notams": "",
@@ -23266,7 +23266,7 @@
           }
         },
         {
-          "id": "8ac857c8-79d9-4254-b79f-b24b73a513ce",
+          "id": "c8ef05f8-9426-44bf-9c6e-084dff84da7b",
           "name": "WEST",
           "airportConditions": "EXPECT ILS APCH.\r\nRWY IN USE ^30,",
           "notams": "",

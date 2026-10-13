@@ -1,11 +1,11 @@
 {
   "name": "GCCC D-ATIS",
-  "id": "fc439221-f4ba-4a9f-97be-5d0c9e72b71c",
+  "id": "d6b72740-ea85-4241-bb72-ce4376cf1e4f",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20GCCC%20D-ATIS.json",
-  "updateSerial": 2026101105,
+  "updateSerial": 2026101301,
   "stations": [
     {
-      "id": "9d78fce1-0e53-4204-a01b-9da6b434d032",
+      "id": "7dd8fe85-460d-4a2c-b796-fee9d2a35823",
       "ordinal": 0,
       "identifier": "GCFV",
       "name": "Fuerteventura",
@@ -1999,7 +1999,7 @@
       },
       "presets": [
         {
-          "id": "fb5306f7-b2db-4fb4-8689-d367fabf0a4d",
+          "id": "9700e0ea-fb93-4028-9a55-370e2beba1fe",
           "name": "NORTH",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^01.",
           "notams": "",
@@ -2015,7 +2015,7 @@
           }
         },
         {
-          "id": "800d2252-7487-4f67-8701-7d3eafd7f446",
+          "id": "fb411792-29f4-412d-b8a6-6d471f1aa164",
           "name": "SOUTH",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^19.",
           "notams": "",
@@ -2119,7 +2119,7 @@
       ]
     },
     {
-      "id": "0f976ef1-cd68-4838-8c1a-a61c159f2129",
+      "id": "7abd575d-5b1a-494e-953f-64075a757ec5",
       "ordinal": 0,
       "identifier": "GCLA",
       "name": "La Palma",
@@ -4113,7 +4113,7 @@
       },
       "presets": [
         {
-          "id": "85f75126-779a-43dc-a948-148fcb1ff440",
+          "id": "f9607d34-989f-456a-8d02-aad78a04b188",
           "name": "NORTH",
           "airportConditions": "EXPECT RNP Y APCH.\nRWY IN USE ^36.",
           "notams": "",
@@ -4129,7 +4129,7 @@
           }
         },
         {
-          "id": "29ad40e9-3cd6-4105-af7d-b7657bf26978",
+          "id": "7e1e24d1-b90f-4a56-b7b4-08b0e8d892a3",
           "name": "SOUTH",
           "airportConditions": "EXPECT RNP A APCH.\nRWY IN USE ^18.",
           "notams": "",
@@ -4227,7 +4227,7 @@
       "notamDefinitions": []
     },
     {
-      "id": "6024988d-65c9-4c72-826b-6a1cfa24285f",
+      "id": "47e6643e-b546-4040-ae03-5971ba996e42",
       "ordinal": 0,
       "identifier": "GCLP",
       "name": "Gran Canaria",
@@ -6221,7 +6221,7 @@
       },
       "presets": [
         {
-          "id": "c371007d-90b0-47e4-8d2f-9f1849163441",
+          "id": "4b9b9851-fb90-476d-8328-9c5737979299",
           "name": "NORTH",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^03L AND FOR DEP ^03R.",
           "notams": "COMPLY 190 KNOTS IAS AT FALPU AND 160 AT 4 DME. ADVISE IF UNABLE. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY.",
@@ -6237,7 +6237,7 @@
           }
         },
         {
-          "id": "d1ebb30a-aba6-4004-ae4c-35640d2d5a2e",
+          "id": "87894ce8-820d-4a5b-944a-9c9331a50aeb",
           "name": "SOUTH",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^21R AND FOR DEP ^21L.",
           "notams": "COMPLY 190 KNOTS IAS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY. LPC VOR OUT OF SERVICE. EXPECT CONTINGENCY DEPARTURE RWY 21 LEFT.",
@@ -6253,7 +6253,7 @@
           }
         },
         {
-          "id": "c371007d-90b0-47e4-8d2f-9f1849163441",
+          "id": "7a444aca-4b32-45ab-955c-34a2bdefa157",
           "name": "NORTH SINGLE",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^03L AND FOR DEP ^03L.",
           "notams": "COMPLY 190 KNOTS IAS AT FALPU AND 160 AT 4 DME. ADVISE IF UNABLE.",
@@ -6269,7 +6269,7 @@
           }
         },
         {
-          "id": "d1ebb30a-aba6-4004-ae4c-35640d2d5a2e",
+          "id": "f67ced4b-9790-461f-b94e-3edf90c1a0f3",
           "name": "SOUTH SINGLE",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^21R AND FOR DEP ^21R.",
           "notams": "COMPLY 190 KNOTS IAS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE. LPC VOR OUT OF SERVICE. EXPECT CONTINGENCY DEPARTURE RWY 21 RIGHT.",
@@ -6285,7 +6285,7 @@
           }
         },
         {
-          "id": "c371007d-90b0-47e4-8d2f-9f1849163441",
+          "id": "7522c10b-0335-46c5-8bf1-675be3198a07",
           "name": "NORTH DUAL",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^03L AND FOR DEP ^03L AND ^03R.",
           "notams": "COMPLY 190 KNOTS IAS AT FALPU AND 160 AT 4 DME. ADVISE IF UNABLE. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY.",
@@ -6301,7 +6301,7 @@
           }
         },
         {
-          "id": "d1ebb30a-aba6-4004-ae4c-35640d2d5a2e",
+          "id": "dca220dc-7cd1-4824-ab45-ed5b7a0f43b0",
           "name": "SOUTH DUAL",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE FOR ARR ^21R AND FOR DEP ^21L AND ^21R.",
           "notams": "COMPLY 190 KNOTS IAS AT TIPUX AND 160 AT 4 DME. ADVISE IF UNABLE. POSSIBLE ILS SIGNAL INTERFERENCES DUE TO ACFT CROSSING ACTIVE RWY. LPC VOR OUT OF SERVICE. EXPECT CONTINGENCY DEPARTURE RWY 21 RIGHT AND 21 LEFT.",
@@ -6399,7 +6399,7 @@
       "notamDefinitions": []
     },
     {
-      "id": "55162069-5814-4a5f-ad5f-8816d26e1060",
+      "id": "8a261cc4-8de3-49d3-8efd-8d4bbf3aef05",
       "ordinal": 0,
       "identifier": "GCRR",
       "name": "Lanzarote",
@@ -8393,7 +8393,7 @@
       },
       "presets": [
         {
-          "id": "b27dec74-b685-4faf-b0f1-96c87a9478b2",
+          "id": "f5a9400a-573c-4508-b7e1-6d0c18571abc",
           "name": "NORTH",
           "airportConditions": "EXPECT ILS APCH.\nRWY IN USE ^03.",
           "notams": "",
@@ -8409,7 +8409,7 @@
           }
         },
         {
-          "id": "8f89c0fc-59ce-4143-8b71-ee3b0325c344",
+          "id": "494440f4-817b-4964-bda4-52e13c83b586",
           "name": "SOUTH",
           "airportConditions": "EXPECT RNP APCH.\nRWY IN USE ^21.",
           "notams": "",
@@ -8507,7 +8507,7 @@
       "notamDefinitions": []
     },
     {
-      "id": "ed41dabd-c56a-4ad4-81e3-eebe5f56e104",
+      "id": "6deff622-67c3-4d60-bd0d-ee2c5aed7bbb",
       "ordinal": 0,
       "identifier": "GCTS",
       "name": "Tenerife South",
@@ -10501,7 +10501,7 @@
       },
       "presets": [
         {
-          "id": "c2c974cc-d54a-4341-8744-2bf762c105c2",
+          "id": "c4ef9e8f-cb05-496f-a6bf-10417a56b0df",
           "name": "EAST",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^07.",
           "notams": "",
@@ -10517,7 +10517,7 @@
           }
         },
         {
-          "id": "bfa8e2f7-244b-467d-aa0e-84dbb754eae1",
+          "id": "3c30175d-db50-4502-83d6-8429e4ca9b00",
           "name": "WEST",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^25.",
           "notams": "",
@@ -10615,7 +10615,7 @@
       "notamDefinitions": []
     },
     {
-      "id": "e35cb23c-efde-4e4a-9722-38e3372add43",
+      "id": "3e742015-faf4-4d0d-9bbe-a07cff005338",
       "ordinal": 0,
       "identifier": "GCXO",
       "name": "Tenerife North",
@@ -12609,7 +12609,7 @@
       },
       "presets": [
         {
-          "id": "88bacd3c-b19f-4b9d-bead-e06f3913ecc5",
+          "id": "5ef90002-9714-46d7-ab6e-e7e5a3ee0d7f",
           "name": "EAST",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^12.",
           "notams": "",
@@ -12625,7 +12625,7 @@
           }
         },
         {
-          "id": "f3eb9bb2-863f-4753-9e15-ba145c59491c",
+          "id": "e8915e1b-93d0-4b5c-9d0a-ed586bc7523b",
           "name": "WEST",
           "airportConditions": "EXPECT ILS Z APCH.\nRWY IN USE ^30.",
           "notams": "",
