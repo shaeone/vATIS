@@ -2,7 +2,7 @@
   "name": "LECM D-ATIS",
   "id": "55db01a7-b776-4c34-818a-fa363de1acca",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LECM%20D-ATIS.json",
-  "updateSerial": 2026101107,
+  "updateSerial": 2026101108,
   "stations": [
     {
       "id": "9d78fce1-0e53-4204-a01b-9da6b434d032",
