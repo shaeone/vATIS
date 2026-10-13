@@ -2,7 +2,7 @@
   "name": "LECB D-ATIS",
   "id": "58b59bde-7ce3-4071-a01a-af269ac3735a",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LECB%20D-ATIS.json",
-  "updateSerial": 2026101303,
+  "updateSerial": 2026101304,
   "stations": [
     {
       "id": "f5306cb5-8b2d-44f4-9355-ac82f8e72317",
@@ -10567,13 +10567,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "MONITOR ADVISORY AFTER PASSING {2000} FT.",
-          "ordinal": 1,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "77cdd808-fc38-4613-9655-e90e2ca499ae",
@@ -12661,13 +12655,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "MONITOR ADVISORY AFTER PASSING {2000} FT.",
-          "ordinal": 1,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "8009f30b-cca8-4d1c-9b8d-6a404b8e0217",
@@ -14755,13 +14743,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "MONITOR ADVISORY AFTER PASSING {2000} FT.",
-          "ordinal": 1,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "58b73ec1-676e-4c44-8407-1cf3ee6c325e",
@@ -16849,13 +16831,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "MONITOR ADVISORY AFTER PASSING {2000} FT.",
-          "ordinal": 1,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "eda6f76b-a350-4325-b34e-0cbdbc2d390f",
@@ -18943,13 +18919,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "MONITOR ADVISORY AFTER PASSING {2000} FT.",
-          "ordinal": 1,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "6597a34b-57e8-4e1e-a8d1-1d4612cdb528",
@@ -21037,13 +21007,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "MONITOR ADVISORY AFTER PASSING {2000} FT.",
-          "ordinal": 1,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "b061b7b5-5b29-4b1a-9269-75105759a434",
@@ -23131,13 +23095,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "MONITOR ADVISORY AFTER PASSING {2000} FT.",
-          "ordinal": 1,
-          "enabled": false
-        }
-      ]
+
     }
   ],
   "version": 4
