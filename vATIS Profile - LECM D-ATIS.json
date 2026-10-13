@@ -2,7 +2,7 @@
   "name": "LECM D-ATIS",
   "id": "4818d01a-89a0-4944-a419-be0915a9d34d",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LECM%20D-ATIS.json",
-  "updateSerial": 2026101303,
+  "updateSerial": 2026101304,
   "stations": [
     {
       "id": "dc1c49aa-09f7-4187-914b-ae079b0297a9",
@@ -8210,32 +8210,32 @@
             {
               "low": 1032,
               "high": 1050,
-              "altitude": 65
+              "altitude": 135
             },
             {
               "low": 1014,
               "high": 1031,
-              "altitude": 70
+              "altitude": 140
             },
             {
               "low": 996,
               "high": 1013,
-              "altitude": 75
+              "altitude": 145
             },
             {
               "low": 978,
               "high": 995,
-              "altitude": 80
+              "altitude": 150
             },
             {
               "low": 960,
               "high": 977,
-              "altitude": 85
+              "altitude": 155
             },
             {
               "low": 942,
               "high": 959,
-              "altitude": 90
+              "altitude": 160
             }
           ],
           "template": {
@@ -12386,32 +12386,32 @@
             {
               "low": 1032,
               "high": 1050,
-              "altitude": 65
+              "altitude": 135
             },
             {
               "low": 1014,
               "high": 1031,
-              "altitude": 70
+              "altitude": 140
             },
             {
               "low": 996,
               "high": 1013,
-              "altitude": 75
+              "altitude": 145
             },
             {
               "low": 978,
               "high": 995,
-              "altitude": 80
+              "altitude": 150
             },
             {
               "low": 960,
               "high": 977,
-              "altitude": 85
+              "altitude": 155
             },
             {
               "low": 942,
               "high": 959,
-              "altitude": 90
+              "altitude": 160
             }
           ],
           "template": {
@@ -14517,32 +14517,32 @@
             {
               "low": 1032,
               "high": 1050,
-              "altitude": 65
+              "altitude": 135
             },
             {
               "low": 1014,
               "high": 1031,
-              "altitude": 70
+              "altitude": 140
             },
             {
               "low": 996,
               "high": 1013,
-              "altitude": 75
+              "altitude": 145
             },
             {
               "low": 978,
               "high": 995,
-              "altitude": 80
+              "altitude": 150
             },
             {
               "low": 960,
               "high": 977,
-              "altitude": 85
+              "altitude": 155
             },
             {
               "low": 942,
               "high": 959,
-              "altitude": 90
+              "altitude": 160
             }
           ],
           "template": {
@@ -18752,37 +18752,37 @@
           "allRunwayVoice": "Wind Shear All Runways",
           "template": {}
         },
-        "transitionLevel": {
+
           "values": [
             {
               "low": 1032,
               "high": 1050,
-              "altitude": 65
+              "altitude": 135
             },
             {
               "low": 1014,
               "high": 1031,
-              "altitude": 70
+              "altitude": 140
             },
             {
               "low": 996,
               "high": 1013,
-              "altitude": 75
+              "altitude": 145
             },
             {
               "low": 978,
               "high": 995,
-              "altitude": 80
+              "altitude": 150
             },
             {
               "low": 960,
               "high": 977,
-              "altitude": 85
+              "altitude": 155
             },
             {
               "low": 942,
               "high": 959,
-              "altitude": 90
+              "altitude": 160
             }
           ],
           "template": {
@@ -18790,7 +18790,7 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
-        "notams": {
+        "transitionLevel": {        "notams": {
           "template": {
             "text": "{notams}",
             "voice": "{notams}"
@@ -20888,32 +20888,32 @@
             {
               "low": 1032,
               "high": 1050,
-              "altitude": 65
+              "altitude": 135
             },
             {
               "low": 1014,
               "high": 1031,
-              "altitude": 70
+              "altitude": 140
             },
             {
               "low": 996,
               "high": 1013,
-              "altitude": 75
+              "altitude": 145
             },
             {
               "low": 978,
               "high": 995,
-              "altitude": 80
+              "altitude": 150
             },
             {
               "low": 960,
               "high": 977,
-              "altitude": 85
+              "altitude": 155
             },
             {
               "low": 942,
               "high": 959,
-              "altitude": 90
+              "altitude": 160
             }
           ],
           "template": {
@@ -23094,8 +23094,8 @@
           "voice": "CONTACT"
         },
         {
-          "variableName": "LEMG",
-          "text": "LEMG",
+          "variableName": "LESO",
+          "text": "LESO",
           "voice": "THIS IS SAN SEBASTIAN"
         },
         {
