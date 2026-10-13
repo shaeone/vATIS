@@ -2,7 +2,7 @@
   "name": "LECM D-ATIS",
   "id": "4818d01a-89a0-4944-a419-be0915a9d34d",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LECM%20D-ATIS.json",
-  "updateSerial": 2026101310,
+  "updateSerial": 2026101311,
   "stations": [
     {
       "id": "dc1c49aa-09f7-4187-914b-ae079b0297a9",
@@ -18843,7 +18843,7 @@
         },
         {
           "id": "ec171239-67b4-48fd-96ea-366d37cdb58a",
-          "name": "NORTH NIGHT",
+          "name": "NORTH DUAL",
           "airportConditions": "RWY IN USE FOR ARR ^31 AND FOR DEP ^30.",
           "notams": "",
           "template": "LEMG ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
@@ -18859,7 +18859,7 @@
         },
         {
           "id": "956c7b4b-62cb-4b85-94a6-033f680a0e98",
-          "name": "SOUTH NIGHT",
+          "name": "SOUTH DUAL",
           "airportConditions": "RWY IN USE FOR ARR ^12 AND FOR DEP ^13.",
           "notams": "",
           "template": "LEMG ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
@@ -20959,7 +20959,7 @@
         {
           "id": "6dc79d69-09ca-4446-9193-dc36e9d10d55",
           "name": "SOUTH",
-          "airportConditions": "EXPECT ILS Z APCH. RWY IN USE ^35.",
+          "airportConditions": "EXPECT ILS Z APCH. RWY IN USE ^17.",
           "notams": "",
           "template": "LEST ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -33471,7 +33471,7 @@
         {
           "id": "079fc1b8-7fe0-4551-84f7-c157d22be5e5",
           "name": "EAST",
-          "airportConditions": "EXPECT RNP Y APCH. RWY IN USE ^11.",
+          "airportConditions": "EXPECT RNP Y APCH. RWY IN USE ^09.",
           "notams": "",
           "template": "LEZL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -33487,7 +33487,7 @@
         {
           "id": "4370d0bd-f11d-4d06-9433-9113fc2e3e5c",
           "name": "WEST",
-          "airportConditions": "EXPECT ILS Z APCH. RWY IN USE ^29.",
+          "airportConditions": "EXPECT ILS Z APCH. RWY IN USE ^27.",
           "notams": "",
           "template": "LEZL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
