@@ -2,7 +2,7 @@
   "name": "LECB D-ATIS",
   "id": "58b59bde-7ce3-4071-a01a-af269ac3735a",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LECB%20D-ATIS.json",
-  "updateSerial": 2026101306,
+  "updateSerial": 2026101307,
   "stations": [
     {
       "id": "f5306cb5-8b2d-44f4-9355-ac82f8e72317",
@@ -2003,7 +2003,7 @@
           "name": "WRL",
           "airportConditions": "RWY IN USE FOR ARR ^24R AND FOR DEP ^24L.",
           "notams": "",
-          "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2019,7 +2019,7 @@
           "name": "WLL",
           "airportConditions": "RWY IN USE FOR ARR ^24L AND FOR DEP ^24L.",
           "notams": "",
-          "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2035,7 +2035,7 @@
           "name": "ENR",
           "airportConditions": "RWY IN USE FOR ARR ^02 AND FOR DEP ^06R.",
           "notams": "",
-          "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2051,7 +2051,7 @@
           "name": "ELR",
           "airportConditions": "RWY IN USE FOR ARR ^06L AND FOR DEP ^06R.",
           "notams": "",
-          "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4159,7 +4159,7 @@
           "name": "WRL",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^24R AND FOR DEP ^24L.\r\nHIGH INTENSITY RUNWAY OPERATIONS IN FORCE.",
           "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2W APCH TRANSITIONS FOR RUNWAY 24R.",
-          "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4175,7 +4175,7 @@
           "name": "WLL",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^24L AND FOR DEP ^24L.\r\nHIGH INTENSITY RUNWAY OPERATIONS IN FORCE.",
           "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2L APCH TRANSITIONS FOR RUNWAY 24L.",
-          "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4191,7 +4191,7 @@
           "name": "ENR",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^02 AND FOR DEP ^06R.\r\nARR ACFT MUST USE EXIT UB, RWY 02 LAST EXIT AVAILABLE U3L.",
           "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2N APCH TRANSITIONS FOR RUNWAY 02.",
-          "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4207,7 +4207,7 @@
           "name": "ELR",
           "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^06L AND FOR DEP ^06R.\r\nHIGH INTENSITY RUNWAY OPERATIONS IN FORCE.",
           "notams": "R-NAV APCH TRANSITIONS IN USE FROM INITIAL APPROACH FIX. EXPECT 2E APCH TRANSITIONS FOR RUNWAY 06L.",
-          "template": "LEBL ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "template": "LEBL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4295,11 +4295,6 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION.",
           "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "DATALINK DEP CLR AVBL.",
-          "ordinal": 4,
           "enabled": false
         }
       ],
@@ -18911,11 +18906,6 @@
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION.",
           "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "DATALINK DEP CLR AVBL.",
-          "ordinal": 4,
           "enabled": false
         }
       ],
