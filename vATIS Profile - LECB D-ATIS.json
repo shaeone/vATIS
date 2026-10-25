@@ -2,7 +2,7 @@
   "name": "LECB D-ATIS",
   "id": "07468763-b532-4c9c-8b06-66ee76341550",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LECB%20D-ATIS.json",
-  "updateSerial": 2026102400,
+  "updateSerial": 2026102600,
   "stations": [
     {
       "id": "f5306cb5-8b2d-44f4-9355-ac82f8e72317",
@@ -2124,6 +2124,8 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
+          "templateText": "{Trend}",
+          "templateVoice": "TREND, {Trend}",
           "template": {}
         },
         "windShear": {
@@ -2284,8 +2286,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": ". ",
-      "airportConditionsSeparator": ". ",
+      "notamsSeparator": "\\n",
+      "airportConditionsSeparator": "\n",
       "frequency": 121980000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -2452,15 +2454,13 @@
         {
           "text": "CTC APPROACH BEFORE PASSING {2000} FT.",
           "ordinal": 1,
-          "stationCondition": "WhenOnline",
-          "stationCallsigns": "LEBL_APP, LEBL_*_APP, LECB_RW_APP, LECB_RN_CTR, LECB_DDI_CTR, LECB_XAL_CTR, LECB_PPI_CTR",
+          "onlineCondition": "LEBL_APP OR LEBL_*_APP OR LECB_RW_APP OR LECB_RN_CTR OR LECB_DDI_CTR OR LECB_XAL_CTR OR LECB_PPI_CTR",
           "enabled": true
         },
         {
           "text": "MONITOR ADVISORY AFTER PASSING {2000} FT.",
           "ordinal": 2,
-          "stationCondition": "WhenOffline",
-          "stationCallsigns": "LEBL_APP, LEBL_*_APP, LECB_RW_APP, LECB_RN_CTR, LECB_DDI_CTR, LECB_XAL_CTR, LECB_PPI_CTR",
+          "onlineCondition": "NOT (LEBL_APP OR LEBL_*_APP OR LECB_RW_APP OR LECB_RN_CTR OR LECB_DDI_CTR OR LECB_XAL_CTR OR LECB_PPI_CTR)",
           "enabled": true
         }
       ],
@@ -4590,6 +4590,8 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
+          "templateText": "{Trend}",
+          "templateVoice": "TREND, {Trend}",
           "template": {}
         },
         "windShear": {
@@ -4750,8 +4752,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": ". ",
-      "airportConditionsSeparator": ". ",
+      "notamsSeparator": "\n",
+      "airportConditionsSeparator": "\n",
       "frequency": 118655000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -7036,6 +7038,8 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
+          "templateText": "{Trend}",
+          "templateVoice": "TREND, {Trend}",
           "template": {}
         },
         "windShear": {
@@ -7196,8 +7200,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": ". ",
-      "airportConditionsSeparator": ". ",
+      "notamsSeparator": "\\n",
+      "airportConditionsSeparator": "\n",
       "frequency": 120080000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -9430,6 +9434,8 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
+          "templateText": "{Trend}",
+          "templateVoice": "TREND, {Trend}",
           "template": {}
         },
         "windShear": {
@@ -9590,8 +9596,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": ". ",
-      "airportConditionsSeparator": ". ",
+      "notamsSeparator": "\n",
+      "airportConditionsSeparator": "\n",
       "frequency": 128755000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -11824,6 +11830,8 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
+          "templateText": "{Trend}",
+          "templateVoice": "TREND, {Trend}",
           "template": {}
         },
         "windShear": {
@@ -11984,8 +11992,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": ". ",
-      "airportConditionsSeparator": ". ",
+      "notamsSeparator": "\n",
+      "airportConditionsSeparator": "\n",
       "frequency": 119805000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -14218,6 +14226,8 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
+          "templateText": "{Trend}",
+          "templateVoice": "TREND, {Trend}",
           "template": {}
         },
         "windShear": {
@@ -14378,8 +14388,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": ". ",
-      "airportConditionsSeparator": ". ",
+      "notamsSeparator": "\n",
+      "airportConditionsSeparator": "\n",
       "frequency": 128605000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -16606,6 +16616,8 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
+          "templateText": "{Trend}",
+          "templateVoice": "TREND, {Trend}",
           "template": {}
         },
         "windShear": {
@@ -16766,8 +16778,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": ". ",
-      "airportConditionsSeparator": ". ",
+      "notamsSeparator": "\n",
+      "airportConditionsSeparator": "\n",
       "frequency": 129155000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -19000,6 +19012,8 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
+          "templateText": "{Trend}",
+          "templateVoice": "TREND, {Trend}",
           "template": {}
         },
         "windShear": {
@@ -19160,8 +19174,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": ". ",
-      "airportConditionsSeparator": ". ",
+      "notamsSeparator": "\n",
+      "airportConditionsSeparator": "\n",
       "frequency": 121780000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -21394,6 +21408,8 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
+          "templateText": "{Trend}",
+          "templateVoice": "TREND, {Trend}",
           "template": {}
         },
         "windShear": {
@@ -21554,8 +21570,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": ". ",
-      "airportConditionsSeparator": ". ",
+      "notamsSeparator": "\n",
+      "airportConditionsSeparator": "\n",
       "frequency": 119255000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -23783,6 +23799,8 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
+          "templateText": "{Trend}",
+          "templateVoice": "TREND, {Trend}",
           "template": {}
         },
         "windShear": {
@@ -23943,8 +23961,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": ". ",
-      "airportConditionsSeparator": ". ",
+      "notamsSeparator": "\n",
+      "airportConditionsSeparator": "\n",
       "frequency": 120255000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -26171,6 +26189,8 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
+          "templateText": "{Trend}",
+          "templateVoice": "TREND, {Trend}",
           "template": {}
         },
         "windShear": {
@@ -26331,8 +26351,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": ". ",
-      "airportConditionsSeparator": ". ",
+      "notamsSeparator": "\n",
+      "airportConditionsSeparator": "\n",
       "frequency": 121080000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -26438,7 +26458,13 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [],
+      "notamDefinitions": [
+        {
+          "text": "PARALLEL HOLDING AT TIRIO.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ],
       "datisTextReplacements": [],
       "datisPrependAirportConditions": "",
       "datisAppendAirportConditions": "",

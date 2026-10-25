@@ -2,7 +2,7 @@
   "name": "GCCC D-ATIS",
   "id": "4c2e88a9-7fbf-4204-b109-8105f9ed2897",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20GCCC%20D-ATIS.json",
-  "updateSerial": 2026102400,
+  "updateSerial": 2026102600,
   "stations": [
     {
       "id": "7dd8fe85-460d-4a2c-b796-fee9d2a35823",
@@ -2124,6 +2124,8 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
+          "templateText": "{Trend}",
+          "templateVoice": "TREND, {Trend}",
           "template": {}
         },
         "windShear": {
@@ -2284,8 +2286,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": ". ",
-      "airportConditionsSeparator": ". ",
+      "notamsSeparator": "\n",
+      "airportConditionsSeparator": "\n",
       "frequency": 118650000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -4518,6 +4520,8 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
+          "templateText": "{Trend}",
+          "templateVoice": "TREND, {Trend}",
           "template": {}
         },
         "windShear": {
@@ -4678,8 +4682,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": ". ",
-      "airportConditionsSeparator": ". ",
+      "notamsSeparator": "\n",
+      "airportConditionsSeparator": "\n",
       "frequency": 118250000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -6906,6 +6910,8 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
+          "templateText": "{Trend}",
+          "templateVoice": "TREND, {Trend}",
           "template": {}
         },
         "windShear": {
@@ -7066,8 +7072,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": ". ",
-      "airportConditionsSeparator": ". ",
+      "notamsSeparator": "\n",
+      "airportConditionsSeparator": "\n",
       "frequency": 118600000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -9358,6 +9364,8 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
+          "templateText": "{Trend}",
+          "templateVoice": "TREND, {Trend}",
           "template": {}
         },
         "windShear": {
@@ -9518,8 +9526,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": ". ",
-      "airportConditionsSeparator": ". ",
+      "notamsSeparator": "\n",
+      "airportConditionsSeparator": "\n",
       "frequency": 118625000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -11746,6 +11754,8 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
+          "templateText": "{Trend}",
+          "templateVoice": "TREND, {Trend}",
           "template": {}
         },
         "windShear": {
@@ -11906,8 +11916,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": ". ",
-      "airportConditionsSeparator": ". ",
+      "notamsSeparator": "\n",
+      "airportConditionsSeparator": "\n",
       "frequency": 118675000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -14134,6 +14144,8 @@
           "becomingVoice": "Becoming",
           "temporaryText": "TEMPO",
           "temporaryVoice": "Temporary",
+          "templateText": "{Trend}",
+          "templateVoice": "TREND, {Trend}",
           "template": {}
         },
         "windShear": {
@@ -14294,8 +14306,8 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": ". ",
-      "airportConditionsSeparator": ". ",
+      "notamsSeparator": "\n",
+      "airportConditionsSeparator": "\n",
       "frequency": 118575000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
