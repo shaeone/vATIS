@@ -2,7 +2,7 @@
   "name": "LECM D-ATIS",
   "id": "f2cdb2f1-5db3-46b6-aefb-fdfbb00ffd33",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LECM%20D-ATIS.json",
-  "updateSerial": 2026102602,
+  "updateSerial": 2026102603,
   "stations": [
     {
       "id": "dc1c49aa-09f7-4187-914b-ae079b0297a9",
@@ -14266,7 +14266,7 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": "\n",
+      "notamsSeparator": "\\n\n",
       "airportConditionsSeparator": "\n",
       "frequency": 130855000,
       "idsEndpoint": "",
@@ -14407,14 +14407,26 @@
       ],
       "notamDefinitions": [
         {
-          "text": "CTC APPROACH BEFORE PASSING {3000} FT.",
+          "text": "CTC APPROACH 118.755 BEFORE PASSING {3000} FT.",
           "ordinal": 1,
+          "onlineCondition": "LEMD_EN_AP AND NOT LEMD_WN_APP",
+          "enabled": true
+        },
+        {
+          "text": "CTC DEPARTURE 131.175 BEFORE PASSING {3000} FT.",
+          "ordinal": 2,
+          "onlineCondition": "LEMD_DE_DEP AND NOT LEMD_DW_DEP",
+          "enabled": true
+        },
+        {
+          "text": "CTC APPROACH BEFORE PASSING {3000} FT.",
+          "ordinal": 3,
           "onlineCondition": "LEMD_*_APP OR LECM_TLI_CTR OR LECM_R2_CTR OR LECM_CTR",
           "enabled": true
         },
         {
           "text": "MONITOR ADVISORY AFTER PASSING {3000} FT.",
-          "ordinal": 2,
+          "ordinal": 4,
           "onlineCondition": "NOT (LEMD_*_APP OR LECM_TLI_CTR OR LECM_R2_CTR OR LECM_CTR)",
           "enabled": true
         }
@@ -21558,7 +21570,7 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "notamsSeparator": "\n",
+      "notamsSeparator": "\\n\n",
       "airportConditionsSeparator": "\n",
       "frequency": 124480000,
       "idsEndpoint": "",
@@ -21699,15 +21711,21 @@
       ],
       "notamDefinitions": [
         {
-          "text": "CTC APPROACH BEFORE PASSING {2000} FT.",
+          "text": "CTC APPROACH 118.455 BEFORE PASSING {2000 FT.",
           "ordinal": 1,
-          "onlineCondition": "LEMG_DEP OR LEMG_APP OR LECS_NCS_CTR OR LECS_CTR",
+          "onlineCondition": "LEMG_APP AND NOT LEMG_W_APP",
+          "enabled": true
+        },
+        {
+          "text": "CTC APPROACH BEFORE PASSING {2000} FT.",
+          "ordinal": 2,
+          "onlineCondition": "LEMG_APP OR LECS_NCS_CTR OR LECS_CTR AND NOT LEMG_W_APP",
           "enabled": true
         },
         {
           "text": "MONITOR ADVISORY AFTER PASSING {2000} FT.",
-          "ordinal": 2,
-          "onlineCondition": "NOT (LEMG_DEP OR LEMG_APP OR LECS_NCS_CTR OR LECS_CTR)",
+          "ordinal": 3,
+          "onlineCondition": "NOT (LEMG_APP OR LECS_NCS_CTR OR LECS_CTR)",
           "enabled": true
         }
       ],

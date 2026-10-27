@@ -2,7 +2,7 @@
   "name": "LECB D-ATIS",
   "id": "07468763-b532-4c9c-8b06-66ee76341550",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LECB%20D-ATIS.json",
-  "updateSerial": 2026102600,
+  "updateSerial": 2026102601,
   "stations": [
     {
       "id": "f5306cb5-8b2d-44f4-9355-ac82f8e72317",
@@ -2452,14 +2452,20 @@
       ],
       "notamDefinitions": [
         {
-          "text": "CTC APPROACH BEFORE PASSING {2000} FT.",
+          "text": "CTC APPROACH 131.125 BEFORE PASSING {2000} FT.",
           "ordinal": 1,
+          "onlineCondition": "LEBL_APP AND NOT (LEBL_2_APP OR LEBL_3_APP OR LEBL_4_APP)",
+          "enabled": true
+        },
+        {
+          "text": "CTC APPROACH BEFORE PASSING {2000} FT.",
+          "ordinal": 2,
           "onlineCondition": "LEBL_APP OR LEBL_*_APP OR LECB_RW_APP OR LECB_RN_CTR OR LECB_DDI_CTR OR LECB_XAL_CTR OR LECB_PPI_CTR",
           "enabled": true
         },
         {
           "text": "MONITOR ADVISORY AFTER PASSING {2000} FT.",
-          "ordinal": 2,
+          "ordinal": 3,
           "onlineCondition": "NOT (LEBL_APP OR LEBL_*_APP OR LECB_RW_APP OR LECB_RN_CTR OR LECB_DDI_CTR OR LECB_XAL_CTR OR LECB_PPI_CTR)",
           "enabled": true
         }
