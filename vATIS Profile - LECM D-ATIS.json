@@ -2,7 +2,7 @@
   "name": "LECM D-ATIS",
   "id": "f2cdb2f1-5db3-46b6-aefb-fdfbb00ffd33",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LECM%20D-ATIS.json",
-  "updateSerial": 2026102603,
+  "updateSerial": 2026102605,
   "stations": [
     {
       "id": "dc1c49aa-09f7-4187-914b-ae079b0297a9",
@@ -24035,7 +24035,7 @@
           "name": "NORTH",
           "airportConditions": "EXPECT ILS Z APCH. RWY IN USE ^35.",
           "notams": "",
-          "template": "LEST ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "template": "LEST ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -24051,7 +24051,7 @@
           "name": "SOUTH",
           "airportConditions": "EXPECT ILS Z APCH. RWY IN USE ^17.",
           "notams": "",
-          "template": "LEST ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "template": "LEST ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -26407,7 +26407,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "CONFIRM ATIS {letter}",
-            "voice": "THIS WAS SANTIAGO INFORMATION {letter|word}"
+            "voice": "THIS WAS SAN SEBASTIAN INFORMATION {letter|word}"
           }
         }
       },
@@ -26431,7 +26431,7 @@
           "name": "NORTH",
           "airportConditions": "EXPECT RNP A APCH. RWY IN USE ^04.",
           "notams": "",
-          "template": "LESO ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "template": "LESO ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -26447,7 +26447,7 @@
           "name": "SOUTH",
           "airportConditions": "EXPECT RNAV Y APCH. RWY IN USE ^22.",
           "notams": "",
-          "template": "LESO ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "template": "LESO ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -28797,7 +28797,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "CONFIRM ATIS {letter}",
-            "voice": "THIS WAS REUS DEP INFORMATION {letter|word}"
+            "voice": "THIS WAS CUATRO VIANTOS INFORMATION {letter|word}"
           }
         }
       },
@@ -33607,7 +33607,7 @@
           "name": "NORTH",
           "airportConditions": "EXPECT RNP Y APCH. RWY IN USE ^01.",
           "notams": "",
-          "template": "LEVX ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "template": "LEVX ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -33623,7 +33623,7 @@
           "name": "SOUTH",
           "airportConditions": "EXPECT ILS Z APCH. RWY IN USE ^19.",
           "notams": "",
-          "template": "LEVX ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "template": "LEVX ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -35979,7 +35979,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "CONFIRM ATIS {letter}",
-            "voice": "THIS WAS SANTANDER DEP INFORMATION {letter|word}"
+            "voice": "THIS WAS SANTANDER INFORMATION {letter|word}"
           }
         }
       },
@@ -36003,7 +36003,7 @@
           "name": "EAST",
           "airportConditions": "EXPECT RNP Y APCH. RWY IN USE ^11.",
           "notams": "",
-          "template": "LEXJ ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "template": "LEXJ ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -36019,7 +36019,7 @@
           "name": "WEST",
           "airportConditions": "EXPECT ILS Z APCH. RWY IN USE ^29.",
           "notams": "",
-          "template": "LEXJ ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "template": "LEXJ ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -38393,7 +38393,7 @@
           "name": "EAST",
           "airportConditions": "EXPECT RNP Y APCH. RWY IN USE ^09.",
           "notams": "",
-          "template": "LEZL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "template": "LEZL ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -38409,7 +38409,7 @@
           "name": "WEST",
           "airportConditions": "EXPECT ILS Z APCH. RWY IN USE ^27. DATALINK DEP CLR AVBL.",
           "notams": "",
-          "template": "LEZL ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
+          "template": "LEZL ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
