@@ -2458,15 +2458,15 @@
           "enabled": true
         },
         {
-          "text": "CTC APPROACH BEFORE PASSING {2000} FT.",
+          "text": "CTC NEXT AVLB FREQ BEFORE PASSING {2000} FT.",
           "ordinal": 2,
-          "onlineCondition": "LEBL_APP OR LEBL_*_APP OR LECB_RW_APP OR LECB_RN_CTR OR LECB_DDI_CTR OR LECB_XAL_CTR OR LECB_PPI_CTR",
+          "onlineCondition": "LEBL_*_APP OR LECB_RW_APP OR LECB_RN_CTR OR LECB_DDI_CTR OR LECB_XAL_CTR OR LECB_PPI_CTR",
           "enabled": true
         },
         {
           "text": "MONITOR ADVISORY AFTER PASSING {2000} FT.",
           "ordinal": 3,
-          "onlineCondition": "NOT (LEBL_APP OR LEBL_*_APP OR LECB_RW_APP OR LECB_RN_CTR OR LECB_DDI_CTR OR LECB_XAL_CTR OR LECB_PPI_CTR)",
+          "onlineCondition": "LEBL_GND AND NOT (LEBL_APP OR LEBL_*_APP OR LECB_RW_APP OR LECB_RN_CTR OR LECB_DDI_CTR OR LECB_XAL_CTR OR LECB_PPI_CTR)",
           "enabled": true
         }
       ],
@@ -16800,7 +16800,7 @@
         {
           "id": "422869e0-1137-45f9-a3e4-a33f6971ce14",
           "name": "NORTH",
-          "airportConditions": "EXPECT ILS Y APCH.\r\nRWY IN USE ^01.",
+          "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^01.",
           "notams": "",
           "template": "LEMH ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -16816,7 +16816,7 @@
         {
           "id": "3ecc9d4b-e07b-4cc2-9934-5d7ad71cc495",
           "name": "SOUTH",
-          "airportConditions": "EXPECT ILS Y APCH.\r\nRWY IN USE ^01.",
+          "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^01.",
           "notams": "",
           "template": "LEMH ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -19196,7 +19196,7 @@
         {
           "id": "083e6c1c-6b0b-429b-a969-44ec8367350f",
           "name": "EAST",
-          "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^06L AND FOR DEP ^06R.",
+          "airportConditions": "RWY IN USE FOR ARR ^06L AND FOR DEP ^06R.",
           "notams": "",
           "template": "LEPA ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -19212,7 +19212,7 @@
         {
           "id": "fe49153e-4085-4b6f-aa3f-3005d6bddb6a",
           "name": "WEST",
-          "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE FOR ARR ^24L AND FOR DEP ^24R.",
+          "airportConditions": "RWY IN USE FOR ARR ^24L AND FOR DEP ^24R.",
           "notams": "",
           "template": "LEPA ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
