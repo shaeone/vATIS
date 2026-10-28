@@ -2454,11 +2454,11 @@
         {
           "text": "CTC APPROACH 131.125 BEFORE PASSING {2000} FT.",
           "ordinal": 1,
-          "onlineCondition": "LEBL_APP AND NOT (LEBL_2_APP OR LEBL_3_APP OR LEBL_4_APP)",
+          "onlineCondition": "(LEBL_TWR OR LEBL_S_TWR) AND LEBL_APP AND NOT (LEBL_2_APP OR LEBL_3_APP OR LEBL_4_APP)",
           "enabled": true
         },
         {
-          "text": "CTC NEXT AVLB FREQ BEFORE PASSING {2000} FT.",
+          "text": "CTC NEXT ABLV FREQ BEFORE PASSING {2000} FT.",
           "ordinal": 2,
           "onlineCondition": "LEBL_*_APP OR LECB_RW_APP OR LECB_RN_CTR OR LECB_DDI_CTR OR LECB_XAL_CTR OR LECB_PPI_CTR",
           "enabled": true

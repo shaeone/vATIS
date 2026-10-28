@@ -14409,7 +14409,7 @@
         {
           "text": "CTC APPROACH 118.755 BEFORE PASSING {3000} FT.",
           "ordinal": 1,
-          "onlineCondition": "LEMD_EN_APP AND NOT LEMD_WN_APP",
+          "onlineCondition": "(LEMD_TWR OR LEMD_*_TWR) AND LEMD_EN_APP AND NOT LEMD_WN_APP",
           "enabled": true
         },
         {
@@ -21717,7 +21717,7 @@
           "enabled": true
         },
         {
-          "text": "CTC NEXT AVLB FREQ BEFORE PASSING {2000} FT.",
+          "text": "CTC NEXT ABLV FREQ BEFORE PASSING {2000} FT.",
           "ordinal": 2,
           "onlineCondition": "(LEMG_TWR OR LEMG_E_TWR) AND (LECS_NCS_CTR OR LECS_CTR)",
           "enabled": true
