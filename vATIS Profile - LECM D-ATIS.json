@@ -19179,7 +19179,7 @@
         {
           "id": "b440973b-c109-4bf4-b749-b9e9668e960a",
           "name": "SOUTH",
-          "airportConditions": "EXPECT ILS Z APCH. RWY IN USE FOR ARR ^12 AND FOR DEP ^12.",
+          "airportConditions": "EXPECT ILS Z APCH. RWY IN USE FOR ARR ^13 AND FOR DEP ^13.",
           "notams": "",
           "template": "LEMG ATIS ARR [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -21602,7 +21602,7 @@
         {
           "id": "7fdd189b-0ba1-4149-bcc5-df387a82c492",
           "name": "SOUTH",
-          "airportConditions": "RWY IN USE FOR ARR ^12 AND FOR DEP ^12.",
+          "airportConditions": "RWY IN USE FOR ARR ^13 AND FOR DEP ^13.",
           "notams": "",
           "template": "LEMG ATIS DEP [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
