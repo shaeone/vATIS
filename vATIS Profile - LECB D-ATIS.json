@@ -2,7 +2,7 @@
   "name": "LECB D-ATIS",
   "id": "07468763-b532-4c9c-8b06-66ee76341550",
   "updateUrl": "https://raw.githubusercontent.com/shaeone/vATIS/refs/heads/main/vATIS%20Profile%20-%20LECB%20D-ATIS.json",
-  "updateSerial": 2026102603,
+  "updateSerial": 2026102604,
   "stations": [
     {
       "id": "f5306cb5-8b2d-44f4-9355-ac82f8e72317",
@@ -16800,7 +16800,7 @@
         {
           "id": "422869e0-1137-45f9-a3e4-a33f6971ce14",
           "name": "NORTH",
-          "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^01.",
+          "airportConditions": "EXPECT ILS Y APCH.\r\nRWY IN USE ^01.",
           "notams": "",
           "template": "LEMH ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
@@ -16816,7 +16816,7 @@
         {
           "id": "3ecc9d4b-e07b-4cc2-9934-5d7ad71cc495",
           "name": "SOUTH",
-          "airportConditions": "EXPECT ILS Z APCH.\r\nRWY IN USE ^19.",
+          "airportConditions": "EXPECT ILS Y APCH.\r\nRWY IN USE ^19.",
           "notams": "",
           "template": "LEMH ATIS [ATIS_CODE] [TIME]\n[ARPT_COND]\n[TL]\n[NOTAMS]\n[WIND]\r[VIS]\n[RVR]\n[CLOUDS]\r[TEMP] [DEW]\r[PRESSURE]\r[TREND]\n[RECENT_WX]\n[CLOSING]",
           "externalGenerator": {
